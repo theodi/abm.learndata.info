@@ -1,0 +1,106 @@
+[
+  {
+    "title": "Innovation through data sharing ",
+    "displayTitle": "Innovation through data sharing ",
+    "body": "<p dir=\"ltr\">This section explains what an agent based model is and gives some examples of how they are already being used to explore different policy questions. We&rsquo;ll explain how we&rsquo;ve chosen to experiment with an agent-based model to help us think about data-sharing and innovation. We also highlight what our model is and isn&rsquo;t</p>",
+    "_classes": "inverted color-five",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c87832f67a1d80550783fc2",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "Image of graphs",
+      "src": "course/en/assets/b6ab772a60873a86ac89150b66cffdd83c3412ed.png"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "title": "Building the model",
+    "displayTitle": "Building the model",
+    "body": "<p>To build an agent-based model we need to think about agents and their characteristics, the environment they&rsquo;re operating in, what decisions they need to make and the factors that govern those decisions.</p>",
+    "_classes": "",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c87906067a1d80550783fdc",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": "course/en/assets/1975f52a31fff0f29f9695feb760b535470c42e2.png"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "title": "Example of using the model to explore a policy question",
+    "displayTitle": "Example of using the model to explore a policy question",
+    "body": "<p>Quick overview of the section (2 sentences)</p>",
+    "_classes": "",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c87e3c667a1d80550784012",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": "course/en/assets/894af128e8074bf3b427a0835dfd735d228bfdd0.png"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "title": "Further reading",
+    "displayTitle": "Further reading",
+    "body": "<p>Overview of the section (2 sentences max)</p>",
+    "_classes": "",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c87e3ea67a1d80550784015",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": "course/en/assets/68915de4c923df065f9f95a0d0d08685a30833e4.png"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  }
+]

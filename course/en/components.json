@@ -1,0 +1,770 @@
+[
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Component title",
+    "displayTitle": "Component title",
+    "body": "",
+    "instruction": "",
+    "_id": "5c98ae96420916053afab3b0",
+    "_parentId": "5c98ae7c420916053afab3ae",
+    "_type": "component",
+    "_layout": "full"
+  },
+  {
+    "_component": "accordion",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "What characteristics have we associated with firms?",
+    "displayTitle": "What characteristics have we associated with firms?",
+    "body": "",
+    "instruction": "",
+    "_id": "5c926c831fa46b052a6f1342",
+    "_parentId": "5c926c7d1fa46b052a6f1341",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_items": [
+      {
+        "title": "Accessible data types",
+        "body": "<p>Missing text</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Products",
+        "body": "<p dir=\"ltr\">Categories of products depend on the types of data a firm has access to in any given tick.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Capital",
+        "body": "<p>Affects the quality of existing products and likelihood of whether they&rsquo;ll be able to make a new product in that category, or even invent a product in a category that firm has never operated in before.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Innovation skill",
+        "body": "<p>Skill at combining capital and data to create new products</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Portability",
+        "body": "<p>Captures how responsive a firm is to existing data sharing technology and regulation. This value is a factor in consumers&rsquo; decisions whether to use a firm or not.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": false
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Component title",
+    "displayTitle": "Component title",
+    "body": "",
+    "instruction": "",
+    "_id": "5c98ae9f420916053afab3b3",
+    "_parentId": "5c98ae9c420916053afab3b2",
+    "_type": "component",
+    "_layout": "full"
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "\"Opennes\"",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\"><strong>&quot;Openness&quot;</strong></p><p dir=\"ltr\">This is a simple way of abstracting different worlds of data sharing.</p><p dir=\"ltr\">For example, low openness corresponds to our current world, where the will and data infrastructure for sharing data is not properly developed yet. High levels of openness corresponds to much easier sharing of data, perhaps implemented through open APIs.</p>",
+    "instruction": "",
+    "_id": "5c926d2c1fa46b052a6f1346",
+    "_parentId": "5c926d041fa46b052a6f1344",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Image",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_id": "5c90c643168efa054562da51",
+    "_parentId": "5c87a01967a1d80550784001",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/1975f52a31fff0f29f9695feb760b535470c42e2.png",
+      "small": "course/en/assets/1975f52a31fff0f29f9695feb760b535470c42e2.png",
+      "attribution": " <span class='assetLicence'>[All rights reserved]</span>"
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Agents in our model",
+    "displayTitle": "Agents in our model",
+    "body": "",
+    "instruction": "",
+    "_id": "5c8f83899e383705378cfe4c",
+    "_parentId": "5c8f83819e383705378cfe4b",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/9d0485154c8e233545d43ad252b20b8afbe3563e.png",
+      "small": "course/en/assets/9d0485154c8e233545d43ad252b20b8afbe3563e.png",
+      "attribution": " <span class='assetLicence'>[All rights reserved]</span>"
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Data model image",
+    "displayTitle": "",
+    "body": "<p>&nbsp;</p><p>&nbsp;</p>",
+    "instruction": "",
+    "_id": "5c9230c51fa46b052a6f12d8",
+    "_parentId": "5c8f6c8f9e383705378cfe33",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/b6ab772a60873a86ac89150b66cffdd83c3412ed.png",
+      "small": "course/en/assets/b6ab772a60873a86ac89150b66cffdd83c3412ed.png",
+      "attribution": " <span class='assetLicence'>[All rights reserved]</span>"
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Text",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\">Now think about what their characteristics are.</p><p dir=\"ltr\">Characteristics are things that fuel decisions that lead to actions in the model.</p><p dir=\"ltr\">For each agent, the value of each characteristic is uniquely generated for them in the model. As the model runs, the value of characteristics can change or you can set them to be constant over time.</p><p dir=\"ltr\">The consumers in our model have X. They could have had characteristics like age and sex, but x</p><p dir=\"ltr\">Decisions might vary by these characteristics but we&rsquo;re assuming consumers don&rsquo;t take their age or sex in to account when picking a product. Income on the other hand, both determines what products they can consume and is a source of revenue for firms.</p>",
+    "instruction": "",
+    "_id": "5c879e3667a1d80550783ff7",
+    "_parentId": "5c879ddc67a1d80550783ff6",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Firm characteristics",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_id": "5c925b261fa46b052a6f1316",
+    "_parentId": "5c9254b51fa46b052a6f1314",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/3d633fd60b7117f93f272d93a1830a4dc73e0d2c.png",
+      "small": "course/en/assets/3d633fd60b7117f93f272d93a1830a4dc73e0d2c.png",
+      "attribution": " <span class='assetLicence'>[All rights reserved]</span>"
+    }
+  },
+  {
+    "_component": "accordion",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Who could they be?",
+    "displayTitle": "Who could they be?",
+    "body": "<p dir=\"ltr\">In an agent-based model, agents are individuals or organisations that make decisions according to their circumstances, just as how you would decide between two products in a shop that have different prices.</p><p dir=\"ltr\"><strong>So who could they be?</strong></p>",
+    "instruction": "",
+    "_id": "5c9248ee1fa46b052a6f12e0",
+    "_parentId": "5c9248e91fa46b052a6f12df",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_items": [
+      {
+        "title": "Government, firms, consumers",
+        "body": "<p>If we&rsquo;re thinking about regulation of digital markets, we may want to put some policy-making agent in the model. However, we&rsquo;re more interested in the decisions firms and consumers make in response to predefined policy and less so about the conditions that give rise to different policy decisions.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Firms, consumers, intermediaries that help consumers control the permissions on their data across other firms",
+        "body": "<p>Increased data sharing could give rise to intermediary firms that make it easier for customers to manage who has access to their data from other firms. The impact of these on the market in digital services is an interesting question but this might be for a more developed version of the model.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Firms, consumers",
+        "body": "<p dir=\"ltr\">Basic level - firms and customers. Of course other actors - bla bla bla.</p><p dir=\"ltr\">But main relationship in the creation of data, creation of services and products and consumption of these services and products are these guys.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": false
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Consumer needs matrix",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_id": "5c87a91f67a1d80550784008",
+    "_parentId": "5c87a8fc67a1d80550784006",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/06c130b213e439d8b5d5bb419a3e5e4b9f223090.png",
+      "small": "course/en/assets/06c130b213e439d8b5d5bb419a3e5e4b9f223090.png",
+      "attribution": " <span class='assetLicence'>[All rights reserved]</span>"
+    }
+  },
+  {
+    "_component": "accordion",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Consumer characteristics",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_id": "5c9251fe1fa46b052a6f1307",
+    "_parentId": "5c9251ed1fa46b052a6f1305",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_items": [
+      {
+        "title": "Income",
+        "body": "<p>Income is important in constraining consumer choice and showing how value accrues to firms. For our model, we also want consumer decisions to be constrained by preferences in some way.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Data",
+        "body": "<p>In our model, we assume that consumers generate data when they use a service. In this sense, the types of data a consumer has generated doesn&rsquo;t affect their decisions as the consumer has to share it with another firm for it to be turned into a useful service. In our model, data doesn&rsquo;t affect consumer decisions and it doesn&rsquo;t affect firms&rsquo; decisions about who they provide services to. It does, however, affect the types of products that firms can produce - &nbsp;hence we include it as a firm characteristic instead.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Needs",
+        "body": "<p>We think of needs in terms of different types of product, or &lsquo;product categories&rsquo;. These can be things like messaging services, photo sharing services, music streaming services - but we don&rsquo;t name them as we&rsquo;re looking for a general model that accounts for categories that don&rsquo;t even exist yet! Each individual consumer in the model has a different need for each type - expressed as category-needs matrix that the model uses to look up what each consumer&rsquo;s need is. &nbsp;</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Concern about privacy",
+        "body": "<p>We also include a &lsquo;privacy concern&rsquo; in order to model how consumers behave if one of the firms experiences something like a large data breach.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": false
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "What's an Agent Based Model?",
+    "displayTitle": "What's an Agent Based Model?",
+    "body": "<p dir=\"ltr\">An agent-based model uses interactions between lots of people to understand how their behaviour might change over time.<strong> </strong></p><p dir=\"ltr\"><strong>It can offer a way to better understand how small decisions have big effects</strong>, but there are many modelling techniques available and an agent-based model is just one.</p><p dir=\"ltr\">Considerable increases in computing power over recent decades has made it possible to develop more complex models, like agent-based ones, and we might be able to use them to <strong>see the effects of complex connections between people, businesses, and public institutions.</strong></p>",
+    "instruction": "",
+    "_id": "5c8f6cba9e383705378cfe34",
+    "_parentId": "5c8f6c8f9e383705378cfe33",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "The system",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\">In this section we&rsquo;ll look at agents, tick cycles, characteristics of agents and consumers, as well as firms and their environment. This whole will be what create our model.</p>",
+    "instruction": "",
+    "_id": "5c87a0d367a1d80550784003",
+    "_parentId": "5c87a01967a1d80550784001",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Consumer",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_id": "5c879e5367a1d80550783ff8",
+    "_parentId": "5c879ddc67a1d80550783ff6",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/1a5f5f58def1a8d18cf3af5d2e6d78f405dca642.png",
+      "small": "course/en/assets/1a5f5f58def1a8d18cf3af5d2e6d78f405dca642.png",
+      "attribution": " <span class='assetLicence'>[All rights reserved]</span>"
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "What are we doing?",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\"><span style=\"color:#3300ff\"><strong>How does data sharing and data portability affect innovation and firm behaviour?</strong></span></p><p dir=\"ltr\">More data sharing could lead to more economic dynamism, and recent policies for data portability in Open Banking and GDPR have suggested that there could be a way to use technology to create a system for open, trustworthy data sharing that leads to more innovation and competitive markets.</p>",
+    "instruction": "",
+    "_id": "5c9269cc1fa46b052a6f1336",
+    "_parentId": "5c90c32d168efa054562da4a",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/b3c3b034b381937d133d909a057699062588d083.png",
+      "small": "course/en/assets/b3c3b034b381937d133d909a057699062588d083.png",
+      "attribution": " <span class='assetLicence'>[All rights reserved]</span>"
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "What's an agent? ---",
+    "displayTitle": "What's an agent? ---",
+    "body": "<p>Short explanation of the agents in our model + their attributes (characteristics)</p><ul><li>In the form of a bullet list</li><li>Because it&#39;s nice</li><li>and readable&nbsp;</li><li>Plus people like reading lists</li><li>It&#39;s a nice summary</li><li>and it&#39;s convenient for examples too</li></ul><p>&nbsp;</p>",
+    "instruction": "",
+    "_id": "5c8f83ce9e383705378cfe4f",
+    "_parentId": "5c8f83819e383705378cfe4b",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Firm characteristics",
+    "displayTitle": "Firm characteristics",
+    "body": "<p>Now think about firms - they turn data in to digital products and decide whether to share data with other firms and maintain systems to do so. Consumers also decide whether to use their products based on these characteristics.</p>",
+    "instruction": "",
+    "_id": "5c9254d21fa46b052a6f1315",
+    "_parentId": "5c9254b51fa46b052a6f1314",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "What does it mean?",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\">We&rsquo;d like to explore a little deeper how consumer-driven sharing of data affects markets for digital services like social media, music streaming and search - and other ones that haven&rsquo;t been invented yet!</p><p dir=\"ltr\"><strong>The ability of firms to create new digital products and grow is affected by how much data they have access to, and we wanted to know what we could learn about the effect of levels of data sharing on firm dynamism in the economy. </strong></p><p dir=\"ltr\">Because policy-making for data sharing is so new, and agent-based modelling is a frontier way for understanding complex questions, we started our work in the simplest possible way: <strong>building an illustrative model that does not use any data and only uses expert understanding to decide how the agents might behave. </strong></p><p dir=\"ltr\">The model is just the beginning for the ODI in modelling the economic effects of data sharing, and its simplicity means that<span style=\"color:#FF8C00\"> it should not be used to make predictions</span>.</p>",
+    "instruction": "",
+    "_id": "5c90c3ed168efa054562da4f",
+    "_parentId": "5c90c32d168efa054562da4a",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Boxology image",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_id": "5c926e141fa46b052a6f1358",
+    "_parentId": "5c9251ed1fa46b052a6f1305",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/f1237f95235e61e22a0fdc11d7dbf51415373fdd.png",
+      "small": "course/en/assets/f1237f95235e61e22a0fdc11d7dbf51415373fdd.png",
+      "attribution": " <span class='assetLicence'>[All rights reserved]</span>"
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Boxology image",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_id": "5c926de71fa46b052a6f1348",
+    "_parentId": "5c926c7d1fa46b052a6f1341",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/7e8b3fc60e0e5893031eeb4c3c757b8b0c292a2a.png",
+      "small": "course/en/assets/7e8b3fc60e0e5893031eeb4c3c757b8b0c292a2a.png",
+      "attribution": " <span class='assetLicence'>[All rights reserved]</span>"
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Consumers",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\">In our model, consumers have income and needs that determine how they spend it.</p><p dir=\"ltr\">We think of needs in terms of different types of product, or &lsquo;product categories&rsquo;. These can be things like messaging services, photo sharing services, music streaming services - but we don&rsquo;t name them as we&rsquo;re looking for a general model that accounts for categories that don&rsquo;t even exist yet!</p><p dir=\"ltr\"><strong>Each individual consumer in the model has a different need for each type - expressed as category-needs matrix that the model uses to look up what each consumer&rsquo;s need is. &nbsp;</strong></p><p dir=\"ltr\">We also include a &lsquo;privacy concern&rsquo; in order to model how consumers behave if one of the firms experiences something like a large data breach</p>",
+    "instruction": "",
+    "_id": "5c87a91767a1d80550784007",
+    "_parentId": "5c87a8fc67a1d80550784006",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "narrative",
+    "_classes": "inverted color-three",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Experimenting with agent-based models and policy questions",
+    "displayTitle": "",
+    "body": "<p>Here are some examples of how agent-based models can be used to explore different policy questions.</p>",
+    "instruction": "",
+    "_id": "5c8784a767a1d80550783fc7",
+    "_parentId": "5c87832f67a1d80550783fc4",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "inverted color-three",
+      "_percentInviewVertical": 50
+    },
+    "mobileInstruction": "",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "inview",
+    "_items": [
+      {
+        "title": "Disease control",
+        "body": "<p dir=\"ltr\">Many governments already use simple agent-based models to understand how epidemics might progress. These models contain simple rules about how diseases spread given a population with people who have natural immunity, people who are likely to recover and people who are likely to die. They also allow modellers to set simple rules based on how much contact these different members of the population have with each other.</p><p dir=\"ltr\"><a href=\"http://ncase.me/simulating/\">http://ncase.me/simulating/</a></p>",
+        "_graphic": {
+          "src": "course/en/assets/ae7416285b40d6c3ea144c60d86810e77b8e00c6.png",
+          "alt": "",
+          "attribution": "http://ncase.me/simulating/ <span class='assetLicence'>[CC0]</span>"
+        },
+        "strapline": "explanation 1"
+      },
+      {
+        "title": "",
+        "body": "<p>Another example could be this:</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>",
+        "_graphic": {
+          "src": "course/assets/828f3df220fc852bc1451d84dc3b7323f4985ac1.png",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "Example 2"
+      },
+      {
+        "title": "",
+        "body": "<p>And a third one could be that;</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>",
+        "_graphic": {
+          "src": "course/en/assets/4ed2043f69bf5c286d2b001d3ca015c7031b8884.png",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "Example 3"
+      }
+    ]
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Platform preference",
+    "displayTitle": "",
+    "body": "<p><strong>Platform preference</strong></p><p>Customers may prefer to use products of different types from the same firm for reasons in addition to the ease of data sharing. For example, if you are used to using a firm&rsquo;s email service, you may want to use their calendar service as well because the user experience feels more seamless.</p>",
+    "instruction": "",
+    "_id": "5c926d311fa46b052a6f1347",
+    "_parentId": "5c926d041fa46b052a6f1344",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "narrative",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Step through the tick cycle",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_id": "5c87987e67a1d80550783ff1",
+    "_parentId": "5c87985067a1d80550783ff0",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "mobileInstruction": "",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "inview",
+    "_items": [
+      {
+        "title": "Firm decisions",
+        "body": "<p><strong>First we look at firm decisions</strong></p>",
+        "_graphic": {
+          "src": "course/en/assets/6fee00c78c6b893dd31bb3719b01c073e671e079.png",
+          "alt": "",
+          "attribution": " <span class='assetLicence'>[All rights reserved]</span>"
+        },
+        "strapline": "cycle"
+      },
+      {
+        "title": "Consumer decisions",
+        "body": "<p>They inform what the firms do</p>",
+        "_graphic": {
+          "src": "course/en/assets/7db51a44520f29b584c7e531474d030ad462559b.png",
+          "alt": "",
+          "attribution": " <span class='assetLicence'>[All rights reserved]</span>"
+        },
+        "strapline": "cycle 2"
+      },
+      {
+        "title": "Influences to the cycle",
+        "body": "<p>Another description!</p>",
+        "_graphic": {
+          "src": "course/en/assets/5c3aa03c72b408dabe753c48b61351584e7daa91.png",
+          "alt": "",
+          "attribution": " <span class='assetLicence'>[All rights reserved]</span>"
+        },
+        "strapline": "External influences on firms and consumers"
+      }
+    ]
+  }
+]

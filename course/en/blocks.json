@@ -1,0 +1,292 @@
+[
+  {
+    "title": "Block title",
+    "displayTitle": "Block title",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 1,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c98ae9c420916053afab3b2",
+    "_parentId": "5c98ae9c420916053afab3b1",
+    "_type": "block"
+  },
+  {
+    "title": "What are the agents?",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 2,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c8f83819e383705378cfe4b",
+    "_parentId": "5c87906067a1d80550783fdd",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "title": "Consumer characteristics",
+    "displayTitle": "Consumer characteristics",
+    "body": "",
+    "_classes": "inverted color-three",
+    "_trackingId": 3,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c879ddc67a1d80550783ff6",
+    "_parentId": "5c879ddc67a1d80550783ff5",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "title": "What is an Agent Based Model?",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 4,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c8f6c8f9e383705378cfe33",
+    "_parentId": "5c87832f67a1d80550783fc3",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "title": "Block title",
+    "displayTitle": "Block title",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 5,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c98ae7c420916053afab3ae",
+    "_parentId": "5c98ae7c420916053afab3ad",
+    "_type": "block"
+  },
+  {
+    "title": "The environment",
+    "displayTitle": "The environment",
+    "body": "",
+    "_classes": "inverted color-one",
+    "_trackingId": 6,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c926d041fa46b052a6f1344",
+    "_parentId": "5c926d041fa46b052a6f1343",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "title": "The tick cycle",
+    "displayTitle": "The tick cycle",
+    "body": "<p dir=\"ltr\">Time in an agent-based model is separated into chunks in which agents make decisions.</p><p dir=\"ltr\">Thinking about what affects the decisions in the tick cycle helps us to think about which ones we should include in the model.</p>",
+    "_classes": "",
+    "_trackingId": 7,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c87985067a1d80550783ff0",
+    "_parentId": "5c87985067a1d80550783fef",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "title": "We need a long title for this section",
+    "displayTitle": "We need a long title for this section",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 8,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c90c32d168efa054562da4a",
+    "_parentId": "5c90c32d168efa054562da49",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "title": "Firm characteristics",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 9,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c9254b51fa46b052a6f1314",
+    "_parentId": "5c9254b41fa46b052a6f1313",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "title": "Method of creating the model",
+    "displayTitle": "Method of creating the model",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 10,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c87a01967a1d80550784001",
+    "_parentId": "5c87a01967a1d80550784000",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "title": "Consumer characteristics",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "inverted color-three",
+    "_trackingId": 11,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c9251ed1fa46b052a6f1305",
+    "_parentId": "5c879ddc67a1d80550783ff5",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "title": "Experimenting with agent-based models and policy questions",
+    "displayTitle": "Experimenting with agent-based models and policy questions",
+    "body": "",
+    "_classes": "inverted color-three",
+    "_trackingId": 12,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c87832f67a1d80550783fc4",
+    "_parentId": "5c87832f67a1d80550783fc3",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "title": "Who could they be?",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "inverted color-ten",
+    "_trackingId": 13,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c9248e91fa46b052a6f12df",
+    "_parentId": "5c87906067a1d80550783fdd",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "title": "Firm characteristics",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 14,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c926c7d1fa46b052a6f1341",
+    "_parentId": "5c9254b41fa46b052a6f1313",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "title": "Characteristics",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "inverted color-three",
+    "_trackingId": 15,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c87a8fc67a1d80550784006",
+    "_parentId": "5c879ddc67a1d80550783ff5",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  }
+]
