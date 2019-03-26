@@ -151,7 +151,7 @@
     "_id": "5c98ae9f420916053afab3b3",
     "_parentId": "5c98ae9c420916053afab3b2",
     "_type": "component",
-    "_layout": "left",
+    "_layout": "right",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
@@ -274,7 +274,7 @@
     "_id": "5c9a477fdcb747055b9b3fff",
     "_parentId": "5c98ae9c420916053afab3b2",
     "_type": "component",
-    "_layout": "right",
+    "_layout": "left",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
