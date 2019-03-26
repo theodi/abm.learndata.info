@@ -1,7 +1,7 @@
 [
   {
-    "title": "Article title",
-    "displayTitle": "Article title",
+    "title": "How to use the model",
+    "displayTitle": "",
     "body": "",
     "_classes": "",
     "instruction": "",
@@ -11,7 +11,12 @@
     "_isVisible": true,
     "_id": "5c98ae9c420916053afab3b1",
     "_parentId": "5c87e3c667a1d80550784012",
-    "_type": "article"
+    "_type": "article",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
   },
   {
     "title": "Article title",
@@ -104,16 +109,16 @@
     }
   },
   {
-    "title": "The tick cycle",
+    "title": "Agent Characteristics",
     "displayTitle": "",
     "body": "",
-    "_classes": "inverted color-ten",
+    "_classes": "",
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5c87985067a1d80550783fef",
+    "_id": "5c9a317ddcb747055b9b3f95",
     "_parentId": "5c87906067a1d80550783fdc",
     "_type": "article",
     "_onScreen": {
@@ -123,26 +128,7 @@
     }
   },
   {
-    "title": " Characteristics of consumers",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "inverted color-three",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5c879ddc67a1d80550783ff5",
-    "_parentId": "5c87906067a1d80550783fdc",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "title": "Firm characteristics",
+    "title": "Company characteristics",
     "displayTitle": "",
     "body": "",
     "_classes": "",
@@ -152,6 +138,25 @@
     "_isHidden": false,
     "_isVisible": true,
     "_id": "5c9254b41fa46b052a6f1313",
+    "_parentId": "5c87906067a1d80550783fdc",
+    "_type": "article",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "title": "Consumers characteristics",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "inverted color-three",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c879ddc67a1d80550783ff5",
     "_parentId": "5c87906067a1d80550783fdc",
     "_type": "article",
     "_onScreen": {
@@ -171,6 +176,63 @@
     "_isHidden": false,
     "_isVisible": true,
     "_id": "5c926d041fa46b052a6f1343",
+    "_parentId": "5c87906067a1d80550783fdc",
+    "_type": "article",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "title": "The tick cycle",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "inverted color-ten",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c87985067a1d80550783fef",
+    "_parentId": "5c87906067a1d80550783fdc",
+    "_type": "article",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "title": "Full model",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c9a42aadcb747055b9b3ff4",
+    "_parentId": "5c87906067a1d80550783fdc",
+    "_type": "article",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "title": "Assumptions",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c9a43b0dcb747055b9b3ffa",
     "_parentId": "5c87906067a1d80550783fdc",
     "_type": "article",
     "_onScreen": {

@@ -15,14 +15,6 @@
     "attribution": "London Market Group",
     "tags": []
   },
-  "4ed2043f69bf5c286d2b001d3ca015c7031b8884.png": {
-    "title": "Image needed placeholder 2.png",
-    "description": "Image needed placeholder",
-    "source": "",
-    "licence": "",
-    "attribution": "",
-    "tags": []
-  },
   "b3c3b034b381937d133d909a057699062588d083.png": {
     "title": "What's the ODI doing?.png",
     "description": "What's the ODI doing?",
@@ -87,6 +79,14 @@
     "attribution": "",
     "tags": []
   },
+  "d32ee4fcac3f4f5976cf825e20c8a8187cfc298c.png": {
+    "title": "Full boxology.png",
+    "description": "full boxology",
+    "source": "",
+    "licence": "All rights reserved",
+    "attribution": "",
+    "tags": []
+  },
   "5c3aa03c72b408dabe753c48b61351584e7daa91.png": {
     "title": "tick cycle and influences.png",
     "description": "tick cycle and influences",
@@ -111,36 +111,52 @@
     "attribution": "",
     "tags": []
   },
-  "3d633fd60b7117f93f272d93a1830a4dc73e0d2c.png": {
-    "title": "Firms.png",
-    "description": "Firm characteristics",
-    "source": "",
-    "licence": "All rights reserved",
-    "attribution": "",
-    "tags": []
-  },
-  "f1237f95235e61e22a0fdc11d7dbf51415373fdd.png": {
-    "title": "Consumer characteristics.png",
-    "description": "Consumer characteristics",
-    "source": "",
-    "licence": "All rights reserved",
-    "attribution": "",
-    "tags": []
-  },
-  "7e8b3fc60e0e5893031eeb4c3c757b8b0c292a2a.png": {
-    "title": "Firm characteristics.png",
-    "description": "Firm characteristics",
-    "source": "",
-    "licence": "All rights reserved",
-    "attribution": "",
-    "tags": []
-  },
   "ae7416285b40d6c3ea144c60d86810e77b8e00c6.png": {
     "title": "simulatingtheworld.png",
     "description": "ABM 1 - trees and fire - screenshot",
     "source": "",
     "licence": "CC0",
     "attribution": "http://ncase.me/simulating/",
+    "tags": []
+  },
+  "305bd303a4b1da18cd798ba352319614e0491353.jpg": {
+    "title": "1-s2.0-S0301421516305560-gr1_lrg.jpg",
+    "description": "Scaling up local energy infrastructure; An agent-based model of the emergence of district heating networks",
+    "source": "https://www.sciencedirect.com/science/article/pii/S0301421516305560?via%3Dihub#f0005",
+    "licence": "CC-BY",
+    "attribution": "",
+    "tags": []
+  },
+  "ebdab150865ac0e23755e50b2da90ca5cb34460c.png": {
+    "title": "Agents - better image.png",
+    "description": "",
+    "source": "",
+    "licence": "",
+    "attribution": "",
+    "tags": []
+  },
+  "26cfbf1504b1244e311f5c2e2fa2339e680aa2f2.png": {
+    "title": "Agents - small.png",
+    "description": "",
+    "source": "",
+    "licence": "",
+    "attribution": "",
+    "tags": []
+  },
+  "8f50a9fd14b701418a38a9deb758e56e6ad7bfa9.png": {
+    "title": "Agent characteristics.png",
+    "description": "",
+    "source": "",
+    "licence": "",
+    "attribution": "",
+    "tags": []
+  },
+  "b9482d168788c5163c2ea018da8dc27e41b13e89.png": {
+    "title": "the tick cycle.png",
+    "description": "",
+    "source": "",
+    "licence": "",
+    "attribution": "",
     "tags": []
   }
 }

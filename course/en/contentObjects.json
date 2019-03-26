@@ -1,8 +1,8 @@
 [
   {
-    "title": "Innovation through data sharing HELLO!",
-    "displayTitle": "Innovation through data sharing HELLO!",
-    "body": "<p dir=\"ltr\">This section explains what an agent based model is and gives some examples of how they are already being used to explore different policy questions. We&rsquo;ll explain how we&rsquo;ve chosen to experiment with an agent-based model to help us think about data-sharing and innovation. We also highlight what our model is and isn&rsquo;t</p>",
+    "title": "Innovation through data sharing ",
+    "displayTitle": "Innovation through data sharing ",
+    "body": "<p dir=\"ltr\">This section explains what an agent based model is and gives some examples of how they are already being used to explore different policy questions.</p><p dir=\"ltr\">We&rsquo;ll explain how we&rsquo;ve chosen to experiment with an agent-based model to help us think about data-sharing and innovation. We also highlight what our model is and isn&rsquo;t</p>",
     "_classes": "inverted color-five",
     "pageBody": "",
     "linkText": "View",
@@ -28,7 +28,7 @@
   {
     "title": "Building the model",
     "displayTitle": "Building the model",
-    "body": "<p>To build an agent-based model we need to think about agents and their characteristics, the environment they&rsquo;re operating in, what decisions they need to make and the factors that govern those decisions.</p>",
+    "body": "<p>To build an agent-based model we need to think about agents and their characteristics, the environment they&rsquo;re operating in, what decisions they need to make and the factors that govern those decisions.&nbsp;</p><p dir=\"ltr\">In this section, we take you through these steps by explaining the ODI&rsquo;s agent-based model of data-sharing and innovation.</p>",
     "_classes": "",
     "pageBody": "",
     "linkText": "View",
@@ -52,9 +52,9 @@
     }
   },
   {
-    "title": "Example of using the model to explore a policy question",
-    "displayTitle": "Example of using the model to explore a policy question",
-    "body": "<p>Quick overview of the section (2 sentences)</p>",
+    "title": "Using the model to explore a policy question",
+    "displayTitle": "Using the model to explore a policy question",
+    "body": "<p>By building an agent-based model, we now have illustrative world where we can change inputs to see what happens.</p><p>This section shows you how to use the model, walking you through the exploration of our policy question as an example.</p>",
     "_classes": "",
     "pageBody": "",
     "linkText": "View",
