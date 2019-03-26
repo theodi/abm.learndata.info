@@ -1,21 +1,5 @@
 [
   {
-    "_component": "graphic",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "title": "Component title",
-    "displayTitle": "Component title",
-    "body": "",
-    "instruction": "",
-    "_id": "5c9a477fdcb747055b9b3fff",
-    "_parentId": "5c98ae9c420916053afab3b2",
-    "_type": "component",
-    "_layout": "right"
-  },
-  {
     "_component": "text",
     "_classes": "",
     "_isOptional": false,
@@ -154,6 +138,27 @@
     }
   },
   {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "How to use the model",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\">There are many things that can be changed in the model - from the strength of the effect of the different agent characteristics to the number of consumers. This can get very confusing very quickly and means that the model is best used to explore a clear research question. Simple questions help you to define what you want to change (model inputs) and what you want to see the impact on (model outputs).</p><p>Model outputs are then visualised and interpreted. This can be done directly by running model code and analysing the data it generates with statistical software. Model code and documentation can be found here. We&rsquo;ve made an app to make it easier for non specialists to do this.</p><p><strong><span style=\"color:#0000FF\"><u>Playable app</u></span></strong></p>",
+    "instruction": "",
+    "_id": "5c98ae9f420916053afab3b3",
+    "_parentId": "5c98ae9c420916053afab3b2",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
     "_component": "graphic",
     "_classes": "",
     "_isOptional": false,
@@ -256,24 +261,30 @@
     }
   },
   {
-    "_component": "text",
+    "_component": "graphic",
     "_classes": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "title": "How to use the model",
-    "displayTitle": "How to use the model",
-    "body": "<p>text</p>",
+    "title": "Parameters image",
+    "displayTitle": "",
+    "body": "",
     "instruction": "",
-    "_id": "5c98ae9f420916053afab3b3",
+    "_id": "5c9a477fdcb747055b9b3fff",
     "_parentId": "5c98ae9c420916053afab3b2",
     "_type": "component",
-    "_layout": "left",
+    "_layout": "right",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/d9abcc68fc1bf7b74da7e3b5a45009d475edee18.png",
+      "small": "course/en/assets/d9abcc68fc1bf7b74da7e3b5a45009d475edee18.png",
+      "attribution": ""
     }
   },
   {

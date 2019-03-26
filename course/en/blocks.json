@@ -1,7 +1,7 @@
 [
   {
-    "title": "Block title",
-    "displayTitle": "Block title",
+    "title": "How to use the model",
+    "displayTitle": "",
     "body": "",
     "_classes": "",
     "_trackingId": 1,
@@ -12,7 +12,12 @@
     "_isVisible": true,
     "_id": "5c98ae9c420916053afab3b2",
     "_parentId": "5c98ae9c420916053afab3b1",
-    "_type": "block"
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
   },
   {
     "title": "What are the agents?",
@@ -245,8 +250,8 @@
     }
   },
   {
-    "title": "Block title",
-    "displayTitle": "Block title",
+    "title": "step by step",
+    "displayTitle": "",
     "body": "",
     "_classes": "",
     "_trackingId": 14,
@@ -257,7 +262,12 @@
     "_isVisible": true,
     "_id": "5c9a4741dcb747055b9b3ffd",
     "_parentId": "5c98ae9c420916053afab3b1",
-    "_type": "block"
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
   },
   {
     "title": "Consumer characteristics",
