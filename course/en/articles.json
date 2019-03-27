@@ -19,8 +19,8 @@
     }
   },
   {
-    "title": "Article title",
-    "displayTitle": "Article title",
+    "title": "How reliable is the model and how can I check this?",
+    "displayTitle": "",
     "body": "",
     "_classes": "",
     "instruction": "",
@@ -30,7 +30,12 @@
     "_isVisible": true,
     "_id": "5c98ae7c420916053afab3ad",
     "_parentId": "5c87e3ea67a1d80550784015",
-    "_type": "article"
+    "_type": "article",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
   },
   {
     "title": "Intro",
@@ -63,6 +68,25 @@
     "_isVisible": true,
     "_id": "5c87832f67a1d80550783fc3",
     "_parentId": "5c87832f67a1d80550783fc2",
+    "_type": "article",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "title": "How has ODI used the model to think about data sharing?",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c9a5636dcb747055b9b4032",
+    "_parentId": "5c87e3c667a1d80550784012",
     "_type": "article",
     "_onScreen": {
       "_isEnabled": false,
@@ -109,6 +133,25 @@
     }
   },
   {
+    "title": "Article title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c9a58afdcb747055b9b406d",
+    "_parentId": "5c87e3c667a1d80550784012",
+    "_type": "article",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
     "title": "Agent Characteristics",
     "displayTitle": "",
     "body": "",
@@ -139,6 +182,25 @@
     "_isVisible": true,
     "_id": "5c9254b41fa46b052a6f1313",
     "_parentId": "5c87906067a1d80550783fdc",
+    "_type": "article",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "title": "How can I use the model to think about real-world problem? ",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c9b3ffa7d54690549568720",
+    "_parentId": "5c87e3c667a1d80550784012",
     "_type": "article",
     "_onScreen": {
       "_isEnabled": false,

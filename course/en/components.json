@@ -27,22 +27,6 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "title": "Component title",
-    "displayTitle": "Component title",
-    "body": "",
-    "instruction": "",
-    "_id": "5c98ae96420916053afab3b0",
-    "_parentId": "5c98ae7c420916053afab3ae",
-    "_type": "component",
-    "_layout": "full"
-  },
-  {
-    "_component": "text",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
     "title": "The tick cycle",
     "displayTitle": "",
     "body": "<p>Time in an agent-based model is separated into chunks in which agents make decisions. Each chunk is called a &lsquo;tick&rsquo;. Agents make a sequence of decisions and take actions defined in a tick, the results of those actions are recorded and then the sequence begins again. This list of decisions and actions is called a &lsquo;tick cycle&rsquo;.</p><p>Thinking about what affects the decisions in the tick cycle helps us to think about which factors we should include in the model. This means that in practice, there is a back and forth between formulating a tick cycle and deciding agent characteristics and the environment.</p>",
@@ -68,26 +52,31 @@
     "displayTitle": "Component title",
     "body": "",
     "instruction": "",
-    "_id": "5c9a43cbdcb747055b9b3ffc",
-    "_parentId": "5c9a43b0dcb747055b9b3ffb",
+    "_id": "5c9a3604dcb747055b9b3fcd",
+    "_parentId": "5c9a317ddcb747055b9b3f96",
     "_type": "component",
-    "_layout": "right"
+    "_layout": "left"
   },
   {
-    "_component": "graphic",
+    "_component": "text",
     "_classes": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "title": "Component title",
-    "displayTitle": "Component title",
-    "body": "",
+    "title": "How reliable is the model and how can I check this?",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\">This has been a quick overview of the agent-based model that we made to explore the impact of data sharing on innovation.</p><p dir=\"ltr\">Those who would like to explore the model further can look at:</p><p dir=\"ltr\"><strong>- Model documentation - </strong>this is a more technical and comprehensive description of the model, including the equations governing agent decisions and behaviour.</p><p dir=\"ltr\"><strong>- Model python code </strong>- this is available on Github and can be installed on your computer. This allows you to interact with more elements of the model and modify it.</p>",
     "instruction": "",
-    "_id": "5c9a3604dcb747055b9b3fcd",
-    "_parentId": "5c9a317ddcb747055b9b3f96",
+    "_id": "5c98ae96420916053afab3b0",
+    "_parentId": "5c98ae7c420916053afab3ae",
     "_type": "component",
-    "_layout": "left"
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
   },
   {
     "_component": "text",
@@ -135,6 +124,27 @@
       "large": "course/en/assets/1975f52a31fff0f29f9695feb760b535470c42e2.png",
       "small": "course/en/assets/1975f52a31fff0f29f9695feb760b535470c42e2.png",
       "attribution": " <span class='assetLicence'>[All rights reserved]</span>"
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Assumptions",
+    "displayTitle": "Assumptions",
+    "body": "<p dir=\"ltr\">Assumptions about the world we have built are captured in the model in all the elements that could be changed that we don&rsquo;t. This is generally driven by the research question. In our model, we set things like the importance of having previously consumed a product in consumer decisions &lsquo;by hand&rsquo;. In other words, the numerical value of this is based on sensible choices given expert opinion.</p><p dir=\"ltr\">In a more developed version of the model, these assumptions would be driven by data. For example, the rate of birth of new companies can be calculated from business surveys. Constructing the model therefore also gives us insight in to new types of data that can inform our policy question. One observation is that useful information to collect form large data holders would be the relative size of companies that successfully request access to their data.</p><p dir=\"ltr\">Crucially, the structure of the model also has assumptions in it, again driven by ODI and others&rsquo; expertise, with guidance from Sandtable. <strong>These assumptions are there to simplify the real-world situation to a point where it can be modelled to answer the policy question.</strong></p><p>&nbsp;</p><p dir=\"ltr\">Assumptions beyond the strengths of different characteristics in decisions can be tricky to spot. Some examples are:</p><p dir=\"ltr\">- We assume that companies don&rsquo;t develop products until they&rsquo;ve gotten confirmed access to the data.</p><p dir=\"ltr\">- New companies randomly decide what products they&rsquo;re going to make, with no attention given to consumers&rsquo; needs - so we don&rsquo;t have market research in our model.</p><p dir=\"ltr\">- The chances of creating a product in a category other companies are already making products are the same as creating a product in a brand new category altogether.</p><p dir=\"ltr\">- Consumers make decisions on the types of products they use based on inherent needs that aren&rsquo;t influenced by anything companies do.</p><p>&nbsp;</p><p dir=\"ltr\">As this is an early-stage model, instead of simplifying these assumptions may be critical. In other words, they have an impact on how data sharing affects innovation.</p><p>A key purpose of developing our model further and testing it against real-world data would be to discover whether our assumptions are simplifying or critical. This is a crucial step in building a model that would be able to predict the effect of different policies.</p>",
+    "instruction": "",
+    "_id": "5c9a55a4dcb747055b9b4030",
+    "_parentId": "5c9a43b0dcb747055b9b3ffb",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
     }
   },
   {
@@ -246,6 +256,27 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
+    "title": "More text",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\">To keep the model as simple as possible, the different practical factors in data sharing have been abstracted in to the &lsquo;Openness&rsquo; environmental variable. It can be set to:</p><p dir=\"ltr\"><strong>Low: </strong>Sharing between companies is difficult. Analogous to the situation under GDPR, with sharing being driven by individual consumer action and no action on standards to make data interoperable between companies.</p><p dir=\"ltr\"><strong>Medium: </strong>Sharing between companies is easier but barriers still remain. This could be an outcome of the Data Transfer Project (DTP) recently announced by Google, Facebook, Twitter and Microsoft. The DTP provides a technical, developer-led solution to how standards for various types of data might be implemented. Questions around who designs the standards and who grants access to data are still to be resolved. If the infrastructure is run on the servers of a large tech company or if a broad range of stakeholders aren&rsquo;t involved in the designing of &lsquo;data models&rsquo;, this solution might not provide enough incentive for large existing companies to make it easy for smaller competitors to access data.</p><p dir=\"ltr\"><strong>High: </strong>Sharing between companies is easy and barriers are minimal and purposeful. This could be the outcome of industry-wide action on open APIs. Both the technical and decision making issues are resolved by a forum that balances the incentives of large and small private sector organisations, consumers and the public sector.</p><p dir=\"ltr\"><em>We explore these levels of openness in the model by changing the &lsquo;openness&rsquo; environment variable.</em></p>",
+    "instruction": "",
+    "_id": "5c9a5765dcb747055b9b4037",
+    "_parentId": "5c9a5756dcb747055b9b4036",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
     "title": "Text",
     "displayTitle": "",
     "body": "<p dir=\"ltr\">Consumers are of course, people. This means that they could have characteristics like age, sex, or education level. Whilst different groups of people are likely to choose different products, they are not the immediate factors that go in to a consumption decision.</p><p dir=\"ltr\">This means we assume consumers don&rsquo;t take their age or sex in to account when picking a product. A person&rsquo;s income on the other hand, both determines what products they can consume and is a source of revenue for companies. In the spirit of building the simplest model possible, we assume this and other characteristics fundamental to our policy question vary randomly and not according to personal and demographic qualities.</p>",
@@ -285,6 +316,27 @@
       "large": "course/en/assets/d9abcc68fc1bf7b74da7e3b5a45009d475edee18.png",
       "small": "course/en/assets/d9abcc68fc1bf7b74da7e3b5a45009d475edee18.png",
       "attribution": ""
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Get in touch",
+    "displayTitle": "Get in touch",
+    "body": "<p dir=\"ltr\"><strong>Please do get in touch - we welcome feedback on bugs, the economics contained in the model and any modified versions you might create. We see this as a conversation starter!</strong></p>",
+    "instruction": "",
+    "_id": "5c9b41347d54690549568742",
+    "_parentId": "5c9b41717d54690549568743",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
     }
   },
   {
@@ -348,6 +400,27 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
+    "title": "Text",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\"><span style=\"color:#0000FF\"><u>Link to playable app</u></span></p><p dir=\"ltr\">The app can be used to explore other research questions. For example, it could be used to look at what might happen if the model has a high level of openness in it and:</p><p dir=\"ltr\">- No big companies (show big companies radio buttons)</p><p dir=\"ltr\">- Low to high privacy concerns among consumers (show privacy radio buttons)</p><p dir=\"ltr\">- Low to high loyalty to a company that they&rsquo;re currently amongst consumers</p><p dir=\"ltr\">- A &lsquo;privacy shock&rsquo; - when a company shares personal data suddenly and unexpectedly. The sudden or unexpected sharing of data can cause increased consumer concern around privacy and a withdrawal of consent to use personal data, which can affect the company in question and other companies.</p>",
+    "instruction": "",
+    "_id": "5c9b40297d54690549568722",
+    "_parentId": "5c9b3ffa7d54690549568721",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
     "title": "What does this mean in our model?",
     "displayTitle": "What does this mean in our model?",
     "body": "<p dir=\"ltr\">In this model, we have companies and consumers interacting. We also have companies interacting with each other to share data.</p><p dir=\"ltr\">Agents are defined by their characteristics and by the decisions they make over the course of the model. In the next section, we look at what the characteristics of companies and consumers in our model are in more detail.</p>",
@@ -360,6 +433,33 @@
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Image",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_id": "5c9b404d7d54690549568723",
+    "_parentId": "5c9b3ffa7d54690549568721",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/3c5bdd18bd553978e967b933bc617475b8ec32e5.png",
+      "small": "course/en/assets/3c5bdd18bd553978e967b933bc617475b8ec32e5.png",
+      "attribution": ""
     }
   },
   {
@@ -387,6 +487,27 @@
       "large": "course/en/assets/06c130b213e439d8b5d5bb419a3e5e4b9f223090.png",
       "small": "course/en/assets/06c130b213e439d8b5d5bb419a3e5e4b9f223090.png",
       "attribution": " <span class='assetLicence'>[All rights reserved]</span>"
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Text part 1",
+    "displayTitle": "",
+    "body": "<p><u><span style=\"color:#0000FF\">Link to app</span></u></p><p dir=\"ltr\">The notion of data sharing, or data portability, is an interesting policy question. It&rsquo;s broadest meaning is the ability for one organisation to share data with another in order for the receiver to provide a service. It&rsquo;s been suggested that this could make it easier for consumers to switch to competing services, or use services that complement what they&rsquo;re already using. <span style=\"color:#0000FF\"><u>Link to blog</u></span></p><p dir=\"ltr\">There are a number of factors that can make data portability easier or harder. <strong>Technical </strong>- if different companies structure their data in different ways, use different types of files, different names, different ways of accessing data can be hard for another company to use that data. Taken together, the elements are known as standards (link to standards guide book).</p>",
+    "instruction": "",
+    "_id": "5c9a565ddcb747055b9b4034",
+    "_parentId": "5c9a5636dcb747055b9b4033",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
     }
   },
   {
@@ -462,6 +583,27 @@
       }
     ],
     "_shouldCollapseItems": false
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Overall conclusion and caveats",
+    "displayTitle": "Overall conclusion and caveats",
+    "body": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&nbsp;</p>",
+    "instruction": "",
+    "_id": "5c9b3f537d5469054956871d",
+    "_parentId": "5c9b3f4e7d5469054956871c",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
   },
   {
     "_component": "accordion",
@@ -687,6 +829,27 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
+    "title": "Text part 2",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\">Other element is<strong> access to the data </strong>- who has control over who the data is shared with, how consent is sought for this where personal data is concerned and how sharing organisations make sure data is being shared safely and securely. For personal data, different approaches to verifying users&rsquo; identity and designing interfaces for them to give permission can also make sharing easier and harder.</p><p dir=\"ltr\">Both these aspects are inherently shaped by organisational issues. Who benefits from data sharing and the impacts on competition and innovation are likely to be shaped by how decisions are made on standards and access. Some of these decisions may give rise to new actors such as data intermediaries.</p>",
+    "instruction": "",
+    "_id": "5c9a56e1dcb747055b9b4035",
+    "_parentId": "5c9a5636dcb747055b9b4033",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
     "title": "The main steps in using the model:",
     "displayTitle": "The main steps in using the model:",
     "body": "<ol><li dir=\"ltr\"><p dir=\"ltr\"><strong>Formulate a question </strong>- the more precise the better. Agent-based models let you see the effects of changing two inputs at the same time but it&rsquo;s a good idea to start by changing one thing at a time. Varying that input then gives you different scenarios to compare. Once you have done this for two different inputs, you can then see how they interact by changing them both at the same time. Similarly, it&rsquo;s important to think ahead of time which output variables are important for your policy question.</p></li><li dir=\"ltr\"><p dir=\"ltr\"><strong>Let the model run </strong>- this involves letting the simulation run through the number of ticks specified, producing a dataset at the end.</p></li><li dir=\"ltr\"><p dir=\"ltr\"><strong>Compare the outputs </strong>- look at how the outputs that you came up with in step one are different in your different scenarios. Bear in mind, though, that there could be a number of explanations for these differences. The model is to help you think through possibilities in a structured way and shouldn&rsquo;t be used for prediction.</p></li></ol>",
@@ -794,6 +957,54 @@
       "alt": "",
       "large": "course/en/assets/b9482d168788c5163c2ea018da8dc27e41b13e89.png",
       "small": "course/en/assets/b9482d168788c5163c2ea018da8dc27e41b13e89.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "What happens next?",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\">Links to posts and blogs</p><p dir=\"ltr\">Blurb about the ideas we are hoping to develop over time</p>",
+    "instruction": "",
+    "_id": "5c9b41877d54690549568744",
+    "_parentId": "5c98ae7c420916053afab3ae",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Image ",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_id": "5c9a5771dcb747055b9b4038",
+    "_parentId": "5c9a5756dcb747055b9b4036",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/828f3df220fc852bc1451d84dc3b7323f4985ac1.png",
+      "small": "course/en/assets/828f3df220fc852bc1451d84dc3b7323f4985ac1.png",
       "attribution": ""
     }
   },
@@ -1004,5 +1215,101 @@
       "small": "course/en/assets/b3c3b034b381937d133d909a057699062588d083.png",
       "attribution": " <span class='assetLicence'>[All rights reserved]</span>"
     }
+  },
+  {
+    "_component": "narrative",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "How can I interpret the results in relation to data sharing? ",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\"><strong>How can I interpret the results in relation to data sharing?&nbsp;</strong></p><p dir=\"ltr\">To answer the question, we set our &lsquo;openness&rsquo; variable to low, medium and high, keeping all the other inputs the same.</p><p dir=\"ltr\">To understand the impact on our stylised market in digital products, we look at seven visualisations of the data produced by the model.</p>",
+    "instruction": "",
+    "_id": "5c9b3d687d54690549568713",
+    "_parentId": "5c9b3d607d54690549568712",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "mobileInstruction": "",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "inview",
+    "_items": [
+      {
+        "title": "Biggest companies",
+        "body": "<p dir=\"ltr\">This graph shows the proportion of all consumers using the three biggest companies&rsquo; products in a product category like such as videos or music.</p><p dir=\"ltr\">Graph 1 - low vs medium</p><p dir=\"ltr\">Graph 2 - medium vs high</p>",
+        "_graphic": {
+          "src": "course/en/assets/2a66ce67ff72e20aba69a641de95e16868319ac5.png",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "This is a graph"
+      },
+      {
+        "title": "Data sharing with small, new companies",
+        "body": "<p dir=\"ltr\">This graph shows how many data sharing requests were granted to companies in their first year, and how many products they have at the end of that first year. If small and young companies can quickly gather data, they might be able to offer new products and grow.</p><p dir=\"ltr\">Graph 1 - low vs medium</p><p dir=\"ltr\">Graph 2 - medium vs high</p>",
+        "_graphic": {
+          "src": "course/en/assets/2a66ce67ff72e20aba69a641de95e16868319ac5.png",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "Another graph!"
+      },
+      {
+        "title": "New products created by companies",
+        "body": "<p dir=\"ltr\">This graph shows firms offering new products in the product categories. Companies leave the market when they don&#39;t have enough customers or run out of money</p><p dir=\"ltr\">Graph 1 - low vs medium</p><p dir=\"ltr\">Graph 2 - medium vs high</p>",
+        "_graphic": {
+          "src": "course/en/assets/2a66ce67ff72e20aba69a641de95e16868319ac5.png",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "A graph"
+      },
+      {
+        "title": "Companies making products across product categories",
+        "body": "<p dir=\"ltr\">This graph shows the frequency of companies making products in given product categories.</p><p dir=\"ltr\">Graph 1 - low vs medium</p><p dir=\"ltr\">Graph 2 - medium vs high</p>",
+        "_graphic": {
+          "src": "course/en/assets/2a66ce67ff72e20aba69a641de95e16868319ac5.png",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "A graph!"
+      },
+      {
+        "title": "Consumers purchasing more than one product across companies",
+        "body": "<p dir=\"ltr\">This graph shows the proportion of consumers purchasing products from a given number of companies in the last 12 months, with no distinction between single or multiple use.</p><p dir=\"ltr\">Graph 1 - low vs medium</p><p dir=\"ltr\">Graph 2 - medium vs high</p>",
+        "_graphic": {
+          "src": "course/en/assets/2a66ce67ff72e20aba69a641de95e16868319ac5.png",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "Another example"
+      },
+      {
+        "title": "Companies innovating products in new and existing categories",
+        "body": "<p dir=\"ltr\">These graphs show the number of products being offered over time to consumers, in existing and new product categories.</p><p dir=\"ltr\">Graph 1 - low vs medium</p><p dir=\"ltr\">Graph 2 - medium vs high</p>",
+        "_graphic": {
+          "src": "course/en/assets/2a66ce67ff72e20aba69a641de95e16868319ac5.png",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "almost last example"
+      },
+      {
+        "title": "Consumer satisfaction with the products offered by companies",
+        "body": "<p dir=\"ltr\">This graph shows how well the products are satisfying consumer needs. The horizontal lines plotted on the graph represent the maximum quality available in the product categories. The product categories are ordered horizontally by how many consumers are using them, a way of testing how &lsquo;useful&rsquo; they are to consumers in the simulation. This plot therefore shows us whether the most used product categories have the highest quality products - in other words, whether innovation is making products that people really want better.</p><p dir=\"ltr\">Graph 1 - low vs medium</p><p dir=\"ltr\">Graph 2 - medium vs high</p>",
+        "_graphic": {
+          "src": "course/en/assets/2a66ce67ff72e20aba69a641de95e16868319ac5.png",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "Last example"
+      }
+    ]
   }
 ]

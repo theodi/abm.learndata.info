@@ -1,9 +1,9 @@
 {
   "title": "Agent Based Models",
   "displayTitle": "Agent Based Models",
-  "body": "",
+  "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
   "description": "",
-  "_latestTrackingId": 22,
+  "_latestTrackingId": 28,
   "_buttons": {
     "_submit": {
       "buttonText": "Submit",
@@ -80,9 +80,6 @@
       },
       "_accordion": {
         "ariaRegion": "This component is an accordion comprised of collapsible content panels containing display text. Select the item titles to toggle the visibility of these content panels."
-      },
-      "_mcq": {
-        "ariaRegion": "This is a multiple choice question. Once you have selected an option, select the submit button below"
       },
       "_narrative": {
         "ariaRegion": "This component displays an image gallery with accompanying text. Use the next and back navigation controls to work through the narrative."
