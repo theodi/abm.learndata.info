@@ -100,8 +100,8 @@
     }
   },
   {
-    "title": "What is the impact of openness in the data sharing environment on the behaviour of firms, innovation and the satisfaction of consumer needs?",
-    "displayTitle": "What is the impact of openness in the data sharing environment on the behaviour of firms, innovation and the satisfaction of consumer needs?",
+    "title": "What is the effect of openness on data sharing and innovation by companies?",
+    "displayTitle": "What is the effect of openness on data sharing and innovation by companies?",
     "body": "",
     "_classes": "",
     "_trackingId": 6,
@@ -142,8 +142,8 @@
   {
     "title": "The environment",
     "displayTitle": "The environment",
-    "body": "",
-    "_classes": "inverted color-one",
+    "body": "<p>Agent decisions are influenced by the model&rsquo;s environment, which affects all agents equally. The model&rsquo;s environment consists of a series of things that can also be changed to explore different questions.</p>",
+    "_classes": "inverted color-ten",
     "_trackingId": 8,
     "instruction": "",
     "_isOptional": false,
@@ -160,8 +160,8 @@
     }
   },
   {
-    "title": "How can I use the model to think about real-world problem? ",
-    "displayTitle": "How can I use the model to think about real-world problem? ",
+    "title": "How can the model be used to think about a real-world problem? ",
+    "displayTitle": "How can the model be used to think about a real-world problem? ",
     "body": "",
     "_classes": "inverted color-three",
     "_trackingId": 9,
@@ -180,8 +180,8 @@
     }
   },
   {
-    "title": "What the model looks like",
-    "displayTitle": "What the model looks like",
+    "title": "Our model in one view",
+    "displayTitle": "Our model in one view",
     "body": "",
     "_classes": "inverted color-three",
     "_trackingId": 10,
@@ -200,8 +200,8 @@
     }
   },
   {
-    "title": "What is the ODI doing?",
-    "displayTitle": "What is the ODI doing?",
+    "title": "An illustrative model",
+    "displayTitle": "An illustrative model",
     "body": "",
     "_classes": "",
     "_trackingId": 11,
@@ -320,31 +320,11 @@
     }
   },
   {
-    "title": "No title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "inverted color-ten",
-    "_trackingId": 17,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5c9a5756dcb747055b9b4036",
-    "_parentId": "5c9a5636dcb747055b9b4032",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
     "title": "step by step",
     "displayTitle": "",
     "body": "",
     "_classes": "inverted color-one",
-    "_trackingId": 18,
+    "_trackingId": 17,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
@@ -360,31 +340,11 @@
     }
   },
   {
-    "title": "Consumer characteristics",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 19,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5c9251ed1fa46b052a6f1305",
-    "_parentId": "5c879ddc67a1d80550783ff5",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
     "title": "The tick cycle",
     "displayTitle": "",
     "body": "",
     "_classes": "",
-    "_trackingId": 20,
+    "_trackingId": 18,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
@@ -400,31 +360,11 @@
     }
   },
   {
-    "title": "Conclusions",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 21,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5c9b3f4e7d5469054956871c",
-    "_parentId": "5c9a58afdcb747055b9b406d",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
     "title": "Experimenting with agent-based models and policy questions",
     "displayTitle": "Experimenting with agent-based models and policy questions",
     "body": "",
     "_classes": "inverted color-three",
-    "_trackingId": 22,
+    "_trackingId": 19,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
@@ -440,91 +380,11 @@
     }
   },
   {
-    "title": "Get in touch",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "inverted color-ten",
-    "_trackingId": 23,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5c9b41717d54690549568743",
-    "_parentId": "5c98ae7c420916053afab3ad",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "title": "How does data sharing affect innovation and company behaviour?",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 24,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5c9a157ddcb747055b9b3f3f",
-    "_parentId": "5c90c32d168efa054562da49",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "title": "Who could they be?",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "inverted color-ten",
-    "_trackingId": 25,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5c9248e91fa46b052a6f12df",
-    "_parentId": "5c87906067a1d80550783fdd",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "title": "Characteristics",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 26,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5c87a8fc67a1d80550784006",
-    "_parentId": "5c879ddc67a1d80550783ff5",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
     "title": "What an ABM is and isn't",
     "displayTitle": "",
     "body": "",
     "_classes": "inverted color-three",
-    "_trackingId": 27,
+    "_trackingId": 20,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
@@ -540,11 +400,31 @@
     }
   },
   {
+    "title": "How does data sharing affect innovation and company behaviour?",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 21,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c9a157ddcb747055b9b3f3f",
+    "_parentId": "5c90c32d168efa054562da49",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
     "title": "What does this mean in our model?",
     "displayTitle": "",
     "body": "",
     "_classes": "inverted color-ten",
-    "_trackingId": 28,
+    "_trackingId": 22,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,

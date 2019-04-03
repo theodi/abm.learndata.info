@@ -1,9 +1,9 @@
 {
-  "title": "Agent Based Models",
-  "displayTitle": "Agent Based Models",
-  "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+  "title": "An agent-based model for data sharing and innovation",
+  "displayTitle": "An agent-based model for data sharing and innovation",
+  "body": "<p dir=\"ltr\">The possibilities for innovating with data are almost endless, but not much is known about what happens in an economy when data sharing is high and companies are perhaps more able to create new products and services. Policymakers in the United Kingdom (UK), the European Union (EU), the United States (US), and several other places are considering how they might intervene to change the level of data sharing between companies so that there is more innovation.</p><p dir=\"ltr\">The Open Data Institute (ODI) has been considering policy interventions that affect the level of data sharing, and to better understand the possible impacts, we went through the first few stages of building an agent-based model. Agent-based modelling is a method for exploring complex issues, and this module shows some results and the development steps we went through.</p>",
   "description": "",
-  "_latestTrackingId": 28,
+  "_latestTrackingId": 22,
   "_buttons": {
     "_submit": {
       "buttonText": "Submit",

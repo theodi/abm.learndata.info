@@ -111,28 +111,12 @@
     "attribution": "",
     "tags": []
   },
-  "06c130b213e439d8b5d5bb419a3e5e4b9f223090.png": {
-    "title": "Consumer needs matrix.png",
-    "description": "Consumer needs matrix",
-    "source": "",
-    "licence": "All rights reserved",
-    "attribution": "",
-    "tags": []
-  },
   "3c5bdd18bd553978e967b933bc617475b8ec32e5.png": {
     "title": "Describe the use case.png",
     "description": "",
     "source": "",
     "licence": "",
     "attribution": "",
-    "tags": []
-  },
-  "ae7416285b40d6c3ea144c60d86810e77b8e00c6.png": {
-    "title": "simulatingtheworld.png",
-    "description": "ABM 1 - trees and fire - screenshot",
-    "source": "",
-    "licence": "CC0",
-    "attribution": "http://ncase.me/simulating/",
     "tags": []
   },
   "305bd303a4b1da18cd798ba352319614e0491353.jpg": {
@@ -188,6 +172,14 @@
     "description": "",
     "source": "",
     "licence": "",
+    "attribution": "",
+    "tags": []
+  },
+  "106de06c1c2d0875ee26028f561ad2c23ed8711e.png": {
+    "title": "People getting sick simulation.png",
+    "description": "",
+    "source": "",
+    "licence": "CC0",
     "attribution": "",
     "tags": []
   }

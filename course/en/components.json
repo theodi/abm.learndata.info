@@ -6,8 +6,8 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "title": "What an ABM isn't",
-    "displayTitle": "What an ABM isn't",
+    "title": "What the ODI’s agent-based model isn’t:",
+    "displayTitle": "What the ODI’s agent-based model isn’t:",
     "body": "<p dir=\"ltr\">- Based on real-world data collected from companies and consumers</p><p dir=\"ltr\">- A model that predicts the real-world effects of different policy choices</p><p dir=\"ltr\">- A theoretical model capturing all the possible features of the companies, customers and public institutions involved with data sharing</p>",
     "instruction": "",
     "_id": "5c9a14e7dcb747055b9b3f3e",
@@ -29,7 +29,7 @@
     "_isVisible": true,
     "title": "The tick cycle",
     "displayTitle": "",
-    "body": "<p>Time in an agent-based model is separated into chunks in which agents make decisions. Each chunk is called a &lsquo;tick&rsquo;. Agents make a sequence of decisions and take actions defined in a tick, the results of those actions are recorded and then the sequence begins again. This list of decisions and actions is called a &lsquo;tick cycle&rsquo;.</p><p>Thinking about what affects the decisions in the tick cycle helps us to think about which factors we should include in the model. This means that in practice, there is a back and forth between formulating a tick cycle and deciding agent characteristics and the environment.</p>",
+    "body": "<p>Time in an agent-based model is separated into chunks in which agents make decisions. Each chunk is called a &lsquo;tick&rsquo;. Agents make a sequence of decisions and take actions defined in a tick, the results of those actions are recorded and then the sequence begins again.</p><p>This list of decisions and actions is called a &lsquo;tick cycle&rsquo;, and thinking about what affects the decisions in the tick cycle helped us to think about which factors we should include in the model. This means that there is a back and forth between formulating a tick cycle and deciding agent characteristics and the environment.</p>",
     "instruction": "",
     "_id": "5c9a3f13dcb747055b9b3fde",
     "_parentId": "5c9a3eefdcb747055b9b3fdb",
@@ -66,7 +66,7 @@
     "_isVisible": true,
     "title": "How reliable is the model and how can I check this?",
     "displayTitle": "",
-    "body": "<p dir=\"ltr\">This has been a quick overview of the agent-based model that we made to explore the impact of data sharing on innovation.</p><p dir=\"ltr\">Those who would like to explore the model further can look at:</p><p dir=\"ltr\"><strong>- Model documentation - </strong>this is a more technical and comprehensive description of the model, including the equations governing agent decisions and behaviour.</p><p dir=\"ltr\"><strong>- Model python code </strong>- this is available on Github and can be installed on your computer. This allows you to interact with more elements of the model and modify it.</p>",
+    "body": "<p dir=\"ltr\">This has been a quick overview of the agent-based model that we made to explore the impact of data sharing on innovation.</p><p dir=\"ltr\">If who would like to explore the model further you can look at</p><p dir=\"ltr\">- <span style=\"color:#0000FF\"><u>Model documentation</u></span> &ndash; this is a more technical and comprehensive description of the model, including the equations governing agent decisions and behaviour.</p><p dir=\"ltr\">- <span style=\"color:#0000FF\"><u>Model python code </u></span>&ndash; this is available on Github and can be installed on your computer. This allows you to interact with more elements of the model and modify it.</p>",
     "instruction": "",
     "_id": "5c98ae96420916053afab3b0",
     "_parentId": "5c98ae7c420916053afab3ae",
@@ -87,7 +87,7 @@
     "_isVisible": true,
     "title": "\"Opennes\"",
     "displayTitle": "",
-    "body": "<p dir=\"ltr\"><strong>&quot;Openness&quot;</strong></p><p dir=\"ltr\">This is a simple way of abstracting different worlds of data sharing.</p><p dir=\"ltr\">For example, low openness corresponds to our current world, where the will and data infrastructure for sharing data is not properly developed yet. High levels of openness corresponds to much easier sharing of data, perhaps implemented through open APIs.</p>",
+    "body": "<p dir=\"ltr\"><strong>&quot;Openness&quot;</strong></p><p dir=\"ltr\">This is a simple way of describing different levels of data sharing.</p><p dir=\"ltr\">Low openness corresponds to our current world, where data infrastructure for sharing data is not properly developed. High levels of openness correspond to much easier sharing of data, perhaps implemented through open application programming interfaces.</p>",
     "instruction": "",
     "_id": "5c926d2c1fa46b052a6f1346",
     "_parentId": "5c926d041fa46b052a6f1344",
@@ -135,7 +135,7 @@
     "_isVisible": true,
     "title": "Assumptions",
     "displayTitle": "Assumptions",
-    "body": "<p dir=\"ltr\">Assumptions about the world we have built are captured in the model in all the elements that could be changed that we don&rsquo;t. This is generally driven by the research question. In our model, we set things like the importance of having previously consumed a product in consumer decisions &lsquo;by hand&rsquo;. In other words, the numerical value of this is based on sensible choices given expert opinion.</p><p dir=\"ltr\">In a more developed version of the model, these assumptions would be driven by data. For example, the rate of birth of new companies can be calculated from business surveys. Constructing the model therefore also gives us insight in to new types of data that can inform our policy question. One observation is that useful information to collect form large data holders would be the relative size of companies that successfully request access to their data.</p><p dir=\"ltr\">Crucially, the structure of the model also has assumptions in it, again driven by ODI and others&rsquo; expertise, with guidance from Sandtable. <strong>These assumptions are there to simplify the real-world situation to a point where it can be modelled to answer the policy question.</strong></p><p>&nbsp;</p><p dir=\"ltr\">Assumptions beyond the strengths of different characteristics in decisions can be tricky to spot. Some examples are:</p><p dir=\"ltr\">- We assume that companies don&rsquo;t develop products until they&rsquo;ve gotten confirmed access to the data.</p><p dir=\"ltr\">- New companies randomly decide what products they&rsquo;re going to make, with no attention given to consumers&rsquo; needs - so we don&rsquo;t have market research in our model.</p><p dir=\"ltr\">- The chances of creating a product in a category other companies are already making products are the same as creating a product in a brand new category altogether.</p><p dir=\"ltr\">- Consumers make decisions on the types of products they use based on inherent needs that aren&rsquo;t influenced by anything companies do.</p><p>&nbsp;</p><p dir=\"ltr\">As this is an early-stage model, instead of simplifying these assumptions may be critical. In other words, they have an impact on how data sharing affects innovation.</p><p>A key purpose of developing our model further and testing it against real-world data would be to discover whether our assumptions are simplifying or critical. This is a crucial step in building a model that would be able to predict the effect of different policies.</p>",
+    "body": "<p dir=\"ltr\">The model has assumptions that make it simpler and easier to use while exploring answers to our policy question. They are based on expert opinion, and to improve them we would need real-world data to learn whether our assumptions are helpfully simplifying or critical to the effects of data sharing on innovation.</p><p dir=\"ltr\"><u>Examples of our assumptions include the following:</u> &nbsp;&nbsp;</p><p dir=\"ltr\">- We assumed that companies don&rsquo;t develop products until they&rsquo;ve got data access.</p><p dir=\"ltr\">- New companies randomly decide what products they&rsquo;re going to make, with no reference to consumers&rsquo; needs.</p><p dir=\"ltr\">- Consumers make decisions on the types of products they use based on inherent needs that aren&rsquo;t influenced by anything companies do.</p>",
     "instruction": "",
     "_id": "5c9a55a4dcb747055b9b4030",
     "_parentId": "5c9a43b0dcb747055b9b3ffb",
@@ -156,7 +156,7 @@
     "_isVisible": true,
     "title": "How to use the model",
     "displayTitle": "",
-    "body": "<p dir=\"ltr\">There are many things that can be changed in the model - from the strength of the effect of the different agent characteristics to the number of consumers. This can get very confusing very quickly and means that the model is best used to explore a clear research question. Simple questions help you to define what you want to change (model inputs) and what you want to see the impact on (model outputs).</p><p>Model outputs are then visualised and interpreted. This can be done directly by running model code and analysing the data it generates with statistical software. Model code and documentation can be found here. We&rsquo;ve made an app to make it easier for non specialists to do this.</p><p><strong><span style=\"color:#0000FF\"><u>Playable app</u></span></strong></p>",
+    "body": "<p dir=\"ltr\">There are many things that can be changed in the model &ndash; from the strength of the effect of the different agent characteristics to the number of consumers. This can get very confusing very quickly and means that the model s best used to explore a clear research question. Simple questions help you to define what you want to change and what impact you want to see.</p><p dir=\"ltr\">Model outputs are visualised and interpreted. This can be done directly by running model code and analysing the data it generates with statistical software.</p><p dir=\"ltr\"><strong><span style=\"color:#0000FF\"><u>Model code</u></span> and <span style=\"color:#0000FF\"><u>documentation</u></span> can be found here. </strong></p>",
     "instruction": "",
     "_id": "5c98ae9f420916053afab3b3",
     "_parentId": "5c98ae9c420916053afab3b2",
@@ -258,31 +258,10 @@
     "_isVisible": true,
     "title": "More text",
     "displayTitle": "",
-    "body": "<p dir=\"ltr\">To keep the model as simple as possible, the different practical factors in data sharing have been abstracted in to the &lsquo;Openness&rsquo; environmental variable. It can be set to:</p><p dir=\"ltr\"><strong>Low: </strong>Sharing between companies is difficult. Analogous to the situation under GDPR, with sharing being driven by individual consumer action and no action on standards to make data interoperable between companies.</p><p dir=\"ltr\"><strong>Medium: </strong>Sharing between companies is easier but barriers still remain. This could be an outcome of the Data Transfer Project (DTP) recently announced by Google, Facebook, Twitter and Microsoft. The DTP provides a technical, developer-led solution to how standards for various types of data might be implemented. Questions around who designs the standards and who grants access to data are still to be resolved. If the infrastructure is run on the servers of a large tech company or if a broad range of stakeholders aren&rsquo;t involved in the designing of &lsquo;data models&rsquo;, this solution might not provide enough incentive for large existing companies to make it easy for smaller competitors to access data.</p><p dir=\"ltr\"><strong>High: </strong>Sharing between companies is easy and barriers are minimal and purposeful. This could be the outcome of industry-wide action on open APIs. Both the technical and decision making issues are resolved by a forum that balances the incentives of large and small private sector organisations, consumers and the public sector.</p><p dir=\"ltr\"><em>We explore these levels of openness in the model by changing the &lsquo;openness&rsquo; environment variable.</em></p>",
+    "body": "<p dir=\"ltr\">The practical factors in data sharing have been simplified into &lsquo;openness&rsquo; in the model. It can be set to:</p><p dir=\"ltr\"><strong>Low: </strong>sharing between companies is difficult. This is analogous to the situation under GDPR, where despite the right to data portability, sharing is driven by individual consumer action and there is limited action on standards to make data interoperable between companies.</p><p dir=\"ltr\"><strong>Medium: </strong>sharing between companies is easier but barriers still remain. This could be an outcome of the Data Transfer Project recently announced by Google, Facebook, Twitter and Microsoft. The project is a technical, developer-led solution to how standards for various types of data might be implemented. Questions around who designs the standards and who grants access to data are still to be resolved.</p><p dir=\"ltr\"><strong>High: </strong>sharing between companies is easy and barriers are minimal and purposeful. This could be the outcome of industry-wide action on open application programming interfaces. Both the technical and decision-making issues are resolved by a forum that balances the incentives of large and small private sector organisations, consumers and the public sector.</p>",
     "instruction": "",
     "_id": "5c9a5765dcb747055b9b4037",
-    "_parentId": "5c9a5756dcb747055b9b4036",
-    "_type": "component",
-    "_layout": "left",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "_component": "text",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "title": "Text",
-    "displayTitle": "",
-    "body": "<p dir=\"ltr\">Consumers are of course, people. This means that they could have characteristics like age, sex, or education level. Whilst different groups of people are likely to choose different products, they are not the immediate factors that go in to a consumption decision.</p><p dir=\"ltr\">This means we assume consumers don&rsquo;t take their age or sex in to account when picking a product. A person&rsquo;s income on the other hand, both determines what products they can consume and is a source of revenue for companies. In the spirit of building the simplest model possible, we assume this and other characteristics fundamental to our policy question vary randomly and not according to personal and demographic qualities.</p>",
-    "instruction": "",
-    "_id": "5c879e3667a1d80550783ff7",
-    "_parentId": "5c879ddc67a1d80550783ff6",
+    "_parentId": "5c9a5636dcb747055b9b4033",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -319,27 +298,6 @@
     }
   },
   {
-    "_component": "text",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "title": "Get in touch",
-    "displayTitle": "Get in touch",
-    "body": "<p dir=\"ltr\"><strong>Please do get in touch - we welcome feedback on bugs, the economics contained in the model and any modified versions you might create. We see this as a conversation starter!</strong></p>",
-    "instruction": "",
-    "_id": "5c9b41347d54690549568742",
-    "_parentId": "5c9b41717d54690549568743",
-    "_type": "component",
-    "_layout": "full",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
     "_component": "accordion",
     "_classes": "",
     "_isOptional": false,
@@ -348,12 +306,12 @@
     "_isVisible": true,
     "title": "Who could they be?",
     "displayTitle": "",
-    "body": "",
+    "body": "<p>In an agent-based model, agents are individuals or organisations that make decisions according to their circumstances, just as you would decide between two products in a shop that have different prices.</p>",
     "instruction": "",
     "_id": "5c9248ee1fa46b052a6f12e0",
-    "_parentId": "5c9248e91fa46b052a6f12df",
+    "_parentId": "5c8f83819e383705378cfe4b",
     "_type": "component",
-    "_layout": "full",
+    "_layout": "right",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
@@ -361,8 +319,8 @@
     },
     "_items": [
       {
-        "title": "Government, firms, consumers",
-        "body": "<p>If we&rsquo;re thinking about regulation of digital markets, we may want to put some policy-making agent in the model. However, we&rsquo;re more interested in the decisions companies and consumers make in response to predefined policy and less so about the conditions that give rise to different policy decisions.</p>",
+        "title": "Consumers",
+        "body": "<p>The buying and selling of digital products between consumers and companies is the main relationship in the model.</p>",
         "_graphic": {
           "alt": "",
           "src": "",
@@ -371,18 +329,8 @@
         "_classes": ""
       },
       {
-        "title": "Firms, consumers, intermediaries that help consumers control the permissions on their data across other firms",
-        "body": "<p>Increased data sharing could give rise to intermediary companies that make it easier for customers to manage who has access to their data from other companies. The impact of these on the market in digital services is an interesting question but this might be for a more developed version of the model.</p>",
-        "_graphic": {
-          "alt": "",
-          "src": "",
-          "attribution": ""
-        },
-        "_classes": ""
-      },
-      {
-        "title": "Firms, consumers",
-        "body": "<p dir=\"ltr\">The main relationship in the buying and selling of digital products is of course between consumers and companies. In terms of data sharing, companies both hold customer data and request it from other companies in order to create new products. These are the fundamental interactions that relate to our policy question, so this is the base-line in terms of types of agents to include in our model.</p>",
+        "title": "Companies",
+        "body": "<p>Companies hold customer data and request it from other companies to create new products.</p>",
         "_graphic": {
           "alt": "",
           "src": "",
@@ -402,7 +350,7 @@
     "_isVisible": true,
     "title": "Text",
     "displayTitle": "",
-    "body": "<p dir=\"ltr\"><span style=\"color:#0000FF\"><u>Link to playable app</u></span></p><p dir=\"ltr\">The app can be used to explore other research questions. For example, it could be used to look at what might happen if the model has a high level of openness in it and:</p><p dir=\"ltr\">- No big companies (show big companies radio buttons)</p><p dir=\"ltr\">- Low to high privacy concerns among consumers (show privacy radio buttons)</p><p dir=\"ltr\">- Low to high loyalty to a company that they&rsquo;re currently amongst consumers</p><p dir=\"ltr\">- A &lsquo;privacy shock&rsquo; - when a company shares personal data suddenly and unexpectedly. The sudden or unexpected sharing of data can cause increased consumer concern around privacy and a withdrawal of consent to use personal data, which can affect the company in question and other companies.</p>",
+    "body": "<p dir=\"ltr\">The model can be used to explore other research questions. For example, it could be used to look at what might happen if the model has a high level of openness in it and</p><p dir=\"ltr\">- there are no big companies</p><p dir=\"ltr\">- privacy concerns are different</p><p dir=\"ltr\">- consumer loyalty to companies is different</p><p dir=\"ltr\">- a company shares personal data suddenly and unexpectedly, and consumers become more concerned about sharing personal data with any company.</p>",
     "instruction": "",
     "_id": "5c9b40297d54690549568722",
     "_parentId": "5c9b3ffa7d54690549568721",
@@ -423,7 +371,7 @@
     "_isVisible": true,
     "title": "What does this mean in our model?",
     "displayTitle": "What does this mean in our model?",
-    "body": "<p dir=\"ltr\">In this model, we have companies and consumers interacting. We also have companies interacting with each other to share data.</p><p dir=\"ltr\">Agents are defined by their characteristics and by the decisions they make over the course of the model. In the next section, we look at what the characteristics of companies and consumers in our model are in more detail.</p>",
+    "body": "<p dir=\"ltr\">Companies and consumers are interacting in the model. We also have companies interacting with each other to share data.</p><p>Agents are defined by their characteristics and by the decisions they make over the course of the model. In the next section, we look in more detail at the characteristics of companies and consumers in our model.</p>",
     "instruction": "",
     "_id": "5c9a2956dcb747055b9b3f4c",
     "_parentId": "5c9a294edcb747055b9b3f4b",
@@ -463,33 +411,6 @@
     }
   },
   {
-    "_component": "graphic",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "title": "Consumer needs matrix",
-    "displayTitle": "",
-    "body": "",
-    "instruction": "",
-    "_id": "5c87a91f67a1d80550784008",
-    "_parentId": "5c87a8fc67a1d80550784006",
-    "_type": "component",
-    "_layout": "right",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/06c130b213e439d8b5d5bb419a3e5e4b9f223090.png",
-      "small": "course/en/assets/06c130b213e439d8b5d5bb419a3e5e4b9f223090.png",
-      "attribution": " <span class='assetLicence'>[All rights reserved]</span>"
-    }
-  },
-  {
     "_component": "text",
     "_classes": "",
     "_isOptional": false,
@@ -498,7 +419,7 @@
     "_isVisible": true,
     "title": "Text part 1",
     "displayTitle": "",
-    "body": "<p><u><span style=\"color:#0000FF\">Link to app</span></u></p><p dir=\"ltr\">The notion of data sharing, or data portability, is an interesting policy question. It&rsquo;s broadest meaning is the ability for one organisation to share data with another in order for the receiver to provide a service. It&rsquo;s been suggested that this could make it easier for consumers to switch to competing services, or use services that complement what they&rsquo;re already using. <span style=\"color:#0000FF\"><u>Link to blog</u></span></p><p dir=\"ltr\">There are a number of factors that can make data portability easier or harder. <strong>Technical </strong>- if different companies structure their data in different ways, use different types of files, different names, different ways of accessing data can be hard for another company to use that data. Taken together, the elements are known as standards (link to standards guide book).</p>",
+    "body": "<p dir=\"ltr\">Data sharing is the ability for one organisation to share data with another, enabling the receiver to provide a service. This could make it easier for consumers to switch to competing services, or use services that complement what they&rsquo;re already using.</p><p dir=\"ltr\">Common technical standards between companies make it easier to share many types of data, in a safe and secure way, with clarity about who has consent to control it. &nbsp;&nbsp;&nbsp;</p><p dir=\"ltr\"><span style=\"color:#0000FF\"><u>Link to blog</u></span>&nbsp;and further reading about <span style=\"color:#0000FF\"><u>standards</u></span></p>",
     "instruction": "",
     "_id": "5c9a565ddcb747055b9b4034",
     "_parentId": "5c9a5636dcb747055b9b4033",
@@ -533,7 +454,7 @@
     "_items": [
       {
         "title": "Accessible data types",
-        "body": "<p>We assume that companies make digital products by combining different types of data, alongside capital. The types of data a company has access to over the course of the simulation changes according to data sharing.</p>",
+        "body": "<p>We assumed that companies make digital products by combining different types of data, alongside capital. The types of data a company has access to over the course of the simulation change according to data sharing.</p>",
         "_graphic": {
           "alt": "",
           "src": "",
@@ -543,7 +464,7 @@
       },
       {
         "title": "Capital",
-        "body": "<p dir=\"ltr\">This affects the quality of existing products and the likelihood of whether they&rsquo;ll be able to make a new product in that category, or even invent a product in a category that firm has never operated in before. This changes over the course of the simulation as the number of consumers using the company&rsquo;s products change.</p>",
+        "body": "<p dir=\"ltr\">This affects the quality of existing products and the likelihood of whether they&rsquo;ll be able to make a new product in that category, or even invent a product in a category that is new to the company. This changes over the course of the simulation as the number of consumers using the company&rsquo;s products change.</p>",
         "_graphic": {
           "alt": "",
           "src": "",
@@ -553,7 +474,7 @@
       },
       {
         "title": "Innovation skill",
-        "body": "<p>Skill at combining capital and data to create new products.&nbsp;</p><p dir=\"ltr\"><strong>This doesn&rsquo;t change over the course of the simulation.</strong></p>",
+        "body": "<p>This is the skill of companies at combining capital and data to create new products.</p><p>It doesn&rsquo;t change over the course of the simulation.</p>",
         "_graphic": {
           "alt": "",
           "src": "",
@@ -563,7 +484,7 @@
       },
       {
         "title": "Portability",
-        "body": "<p>Captures how responsive a firm is to existing data sharing technology and regulation. This value is a factor in consumers&rsquo; decisions whether to use a firm or not.</p>",
+        "body": "<p>Portability is about how responsive a company is to existing data sharing technology and regulation. This value is a factor in consumers&rsquo; decisions about whether to use a company or not.</p>",
         "_graphic": {
           "alt": "",
           "src": "",
@@ -573,7 +494,7 @@
       },
       {
         "title": "Products",
-        "body": "<p>Categories of products depend on the types of data a firm has access to in any given tick. This is expressed in a &lsquo;matrix&rsquo; that maps combinations of types of data on to categories of products. If a company has access to these types of data, it has a chance of producing a product in categories that are based on that data.</p>",
+        "body": "<p dir=\"ltr\">Categories of products depend on the types of data a company has access to in any given tick. This is expressed in a &lsquo;matrix&rsquo; that maps combinations of types of data on to categories of products. If a company has access to these types of data, it has a chance of producing a product in categories that are based on that data.</p>",
         "_graphic": {
           "alt": "",
           "src": "",
@@ -591,14 +512,14 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "title": "Overall conclusion and caveats",
-    "displayTitle": "Overall conclusion and caveats",
-    "body": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&nbsp;</p>",
+    "title": "What happens next?",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\">The model is just the ODI&rsquo;s first attempt at modelling the effects of data sharing on innovation in the economy. If you would like to help us develop it, please get in touch: lawrence.kay@theodi.org.</p><p dir=\"ltr\">In the meantime you can read more about our work on data sharing and innovation:</p><p dir=\"ltr\"><span style=\"color:#0000FF\">-&nbsp;</span><u><a href=\"https://theodi.org/article/will-gdpr-and-data-portability-support-innovation/\" target=\"_blank\"><span style=\"color:#0000FF\">Will GDPR and data portability support innovation?</span></a></u></p><p dir=\"ltr\"><span style=\"color:#0000FF\">-&nbsp;</span><u><a href=\"https://theodi.org/article/furman-review-access-to-data-is-a-new-tool-against-monopoly/\" target=\"_blank\"><span style=\"color:#0000FF\">Furman Review: Access to data is a new tool against monopoly</span></a></u></p><p dir=\"ltr\"><span style=\"color:#0000FF\">-&nbsp;</span><u><a href=\"https://theodi.org/topic/data-infrastructure/\" target=\"_blank\"><span style=\"color:#0000FF\">What is data infrastructure?</span></a></u></p>",
     "instruction": "",
-    "_id": "5c9b3f537d5469054956871d",
-    "_parentId": "5c9b3f4e7d5469054956871c",
+    "_id": "5c9b41877d54690549568744",
+    "_parentId": "5c98ae7c420916053afab3ae",
     "_type": "component",
-    "_layout": "full",
+    "_layout": "right",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
@@ -614,12 +535,12 @@
     "_isVisible": true,
     "title": "Consumer characteristics",
     "displayTitle": "",
-    "body": "<p><strong>This means consumers in the model have the following characteristics:</strong></p>",
+    "body": "<p dir=\"ltr\">In the spirit of building the simplest model possible, we have assumed that the characteristics fundamental to our policy question (income, data provided, privacy concern, needs) vary randomly and not according to personal and demographic qualities.</p><p dir=\"ltr\">Consumers in the model have the following characteristics.</p>",
     "instruction": "",
     "_id": "5c9251fe1fa46b052a6f1307",
-    "_parentId": "5c9251ed1fa46b052a6f1305",
+    "_parentId": "5c879ddc67a1d80550783ff6",
     "_type": "component",
-    "_layout": "full",
+    "_layout": "right",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
@@ -628,7 +549,7 @@
     "_items": [
       {
         "title": "Income",
-        "body": "<p>Income is important in constraining consumer choice and showing how value accrues to firms. For our model, we also want consumer decisions to be constrained by preferences in some way.</p>",
+        "body": "<p>Income constrains consumer choice and leads to value accruing in companies as consumers use their products.</p>",
         "_graphic": {
           "alt": "",
           "src": "",
@@ -638,7 +559,7 @@
       },
       {
         "title": "Data",
-        "body": "<p>In our model, we assume that consumers generate data when they use a service. In this sense, the types of data a consumer has generated doesn&rsquo;t affect their decisions as the consumer has to share it with another firm for it to be turned into a useful service. In our model, data doesn&rsquo;t affect consumer decisions and it doesn&rsquo;t affect firms&rsquo; decisions about who they provide services to. It does, however, affect the types of products that firms can produce - &nbsp;hence we include it as a firm characteristic instead.</p>",
+        "body": "<p>We assumed that consumers provide data when they use a service. Data doesn&rsquo;t affect consumer decisions or companies&rsquo; decisions about who they provide services to. But it does affect the types of products that companies can produce.</p>",
         "_graphic": {
           "alt": "",
           "src": "",
@@ -648,7 +569,7 @@
       },
       {
         "title": "Concern about privacy",
-        "body": "<p>We also include a &lsquo;privacy concern&rsquo; in order to model how consumers behave if one of the firms experiences something like a large data breach.</p>",
+        "body": "<p>There is a &lsquo;privacy concern&rsquo; in the model to show how consumers behave if one of the companies experiences something like a large data breach.</p>",
         "_graphic": {
           "alt": "",
           "src": "",
@@ -658,7 +579,7 @@
       },
       {
         "title": "Needs",
-        "body": "<p>We think of needs in terms of different types of product, or &lsquo;product categories&rsquo;. These can be things like messaging services, photo sharing services, music streaming services - but we don&rsquo;t name them as we&rsquo;re looking for a general model that accounts for categories that don&rsquo;t even exist yet! Each individual consumer in the model has a different need for each type - expressed as category-needs matrix that the model uses to look up what each consumer&rsquo;s need is.</p>",
+        "body": "<p>Here, we think of needs in terms of different types of product categories. These can be things like messaging services, photo sharing services, music streaming services &ndash; but we didn&rsquo;t name them as we were looking for a general model that accounts for categories that don&rsquo;t even exist yet. Each consumer in the model has a different need for each product category type &ndash; expressed as a category-needs matrix that the model uses to look up the needs of each consumer.</p>",
         "_graphic": {
           "alt": "",
           "src": "",
@@ -678,7 +599,7 @@
     "_isVisible": true,
     "title": "What's an Agent Based Model?",
     "displayTitle": "What's an Agent Based Model?",
-    "body": "<p dir=\"ltr\">An agent-based model uses interactions between lots of people to understand how their behaviour might change over time.<strong> </strong></p><p dir=\"ltr\"><strong>It can offer a way to better understand how small decisions have big effects</strong>, but there are many modelling techniques available and an agent-based model is just one.</p><p dir=\"ltr\">Considerable increases in computing power over recent decades has made it possible to develop more complex models, like agent-based ones, and we might be able to use them to <strong>see the effects of complex connections between people, businesses, and public institutions.</strong></p>",
+    "body": "<p dir=\"ltr\">An agent-based model uses interactions between lots of people to understand how their behaviour might change over time.</p><p dir=\"ltr\">It can offer a way to understand how small decisions have big effects, but it is just one of many modelling techniques available.</p><p dir=\"ltr\">Considerable increases in computing power over recent decades have made it possible to develop more complex models, like agent-based ones. We might be able to use them to see the effects of complex connections between people, businesses and public institutions.</p>",
     "instruction": "",
     "_id": "5c8f6cba9e383705378cfe34",
     "_parentId": "5c8f6c8f9e383705378cfe33",
@@ -697,9 +618,9 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "title": "What an ABM is",
-    "displayTitle": "What an ABM is",
-    "body": "<p>- A piece of computing software that creates simulated data</p><p>- An experimental approach in thinking about specific policy questions to do with data sharing</p><p dir=\"ltr\">- An aid to making sense of one part of a complex system and visualising how some economic aspects might behave as a whole</p><p dir=\"ltr\">- A way of capturing the thoughts of the expert&rsquo;s who we&rsquo;ve been working with</p><p dir=\"ltr\">- A way of learning how policy experts and experts in new modelling techniques can work together</p><p dir=\"ltr\">- A tool to aid discussion within the ODI and with other interested people about our collective assumptions about the data economy</p>",
+    "title": "What the ODI’s agent-based model is:",
+    "displayTitle": "What the ODI’s agent-based model is:",
+    "body": "<p dir=\"ltr\">- Computing software that creates simulated data</p><p dir=\"ltr\">- An experimental approach to thinking about policy questions on data sharing</p><p dir=\"ltr\">- An aid to making sense of one part of a complex system and visualising how some economic aspects might behave as a whole</p><p dir=\"ltr\">- A way of capturing the thoughts of the experts who we&rsquo;ve been working with</p><p dir=\"ltr\">- A way of learning how policy experts and experts in new modelling techniques can work together</p><p dir=\"ltr\">- A tool to aid discussion within the ODI and with other interested people about our collective assumptions about the data economy</p>",
     "instruction": "",
     "_id": "5c9a1494dcb747055b9b3f3d",
     "_parentId": "5c9a147ddcb747055b9b3f3b",
@@ -720,7 +641,7 @@
     "_isVisible": true,
     "title": "Agent characteristics",
     "displayTitle": "",
-    "body": "<p>Characteristics affect how agents make decisions, similar to the way that your characteristics shape how you make decisions. These decisions lead to actions, the results of which are recorded over the course of running the simulation.</p><p>For each agent, the value of each characteristic is uniquely generated for them in the model. As the model runs, the value of characteristics can change or they can be set as constant over time. The strength of the impact of characteristics on agent&rsquo;s decisions and abilities can be changed in the model to explore different questions. For example, in this model you will be able to change how much consumers care about privacy when they are picking between companies.</p>",
+    "body": "<p dir=\"ltr\">Characteristics affect how agents make decisions, similar to the way that your characteristics shape how you make decisions. These decisions lead to actions, the results of which are recorded over the course of running the simulation in the agent-based model.</p><p dir=\"ltr\">For each agent, the value of each characteristic is uniquely generated for them in the model. As the model runs, the user (the person running the model) can change the value of characteristics or set them as constant over time. To explore different questions, the user can change the strength of the impact of characteristics on agent decisions and their abilities.</p>",
     "instruction": "",
     "_id": "5c9a3199dcb747055b9b3f97",
     "_parentId": "5c9a317ddcb747055b9b3f96",
@@ -741,7 +662,7 @@
     "_isVisible": true,
     "title": "The system",
     "displayTitle": "",
-    "body": "<p dir=\"ltr\">In this section we&rsquo;ll look at agents, the characteristics of agents and their environment. We&rsquo;ll also introduce the concept of a &lsquo;tick cycle&rsquo;, a summary of the decisions and interactions of agents. Taken as a whole, this is our model. We&rsquo;ll then reflect on two different types of assumptions in the model and what they mean for future development.</p>",
+    "body": "<p dir=\"ltr\">In this section we&rsquo;ll look at agents, the characteristics of agents, and their environment. We&rsquo;ll also introduce the concept of a &lsquo;tick cycle&rsquo;, a summary of the decisions and interactions of agents. Taken as a whole, this is our model. We&rsquo;ll then reflect on assumptions in the model and what they mean for future development.</p>",
     "instruction": "",
     "_id": "5c87a0d367a1d80550784003",
     "_parentId": "5c87a01967a1d80550784001",
@@ -789,7 +710,7 @@
     "_isVisible": true,
     "title": "Intro",
     "displayTitle": "",
-    "body": "<p dir=\"ltr\">The ability of companies to create new digital products and grow is affected by how much data they have access to, and we wanted to know what we could learn about the effect of levels of data sharing on firm dynamism in the economy.</p><p dir=\"ltr\">Because policy-making for data sharing is so new, and agent-based modelling is a frontier way for understanding complex questions, we started our work in the simplest possible way: building an illustrative model that does not use any data and only uses expert understanding to decide how the agents might behave.</p><p dir=\"ltr\"><strong>The model is just the beginning for the ODI in modelling the economic effects of data sharing, and its simplicity means that it should not be used to make predictions.</strong></p>",
+    "body": "<p dir=\"ltr\">The ability of companies to create new digital products and grow could be affected by how much data they have access to, and we wanted to know what we could learn about the effect of levels of data sharing on company performance in an economy.</p><p dir=\"ltr\">Because policymaking for data sharing is so new and the ODI hasn&rsquo;t built an agent-based model before, we started our work in the simplest possible way: by building an illustrative model that does not use any data and only uses expert understanding to decide how the agents might behave.</p><p dir=\"ltr\"><strong>The model is just the beginning for the ODI in modelling the economic effects of data sharing, and its simplicity means that it cannot be used to make predictions.</strong></p>",
     "instruction": "",
     "_id": "5c9a1468dcb747055b9b3f3a",
     "_parentId": "5c90c32d168efa054562da4a",
@@ -808,51 +729,9 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "title": "Agents",
-    "displayTitle": "",
-    "body": "<p>In an agent-based model, agents are individuals or organisations that make decisions according to their circumstances, just as how you would decide between two products in a shop that have different prices.</p><p>&nbsp;</p><p dir=\"ltr\"><strong>What&rsquo;s the fewest types of agents needed? </strong></p><p dir=\"ltr\">Remember, the aim is to build the simplest model possible of data sharing and competition between digital companies.</p><p>&nbsp;</p>",
-    "instruction": "",
-    "_id": "5c8f83ce9e383705378cfe4f",
-    "_parentId": "5c8f83819e383705378cfe4b",
-    "_type": "component",
-    "_layout": "right",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "_component": "text",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "title": "Text part 2",
-    "displayTitle": "",
-    "body": "<p dir=\"ltr\">Other element is<strong> access to the data </strong>- who has control over who the data is shared with, how consent is sought for this where personal data is concerned and how sharing organisations make sure data is being shared safely and securely. For personal data, different approaches to verifying users&rsquo; identity and designing interfaces for them to give permission can also make sharing easier and harder.</p><p dir=\"ltr\">Both these aspects are inherently shaped by organisational issues. Who benefits from data sharing and the impacts on competition and innovation are likely to be shaped by how decisions are made on standards and access. Some of these decisions may give rise to new actors such as data intermediaries.</p>",
-    "instruction": "",
-    "_id": "5c9a56e1dcb747055b9b4035",
-    "_parentId": "5c9a5636dcb747055b9b4033",
-    "_type": "component",
-    "_layout": "right",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "_component": "text",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "title": "The main steps in using the model:",
-    "displayTitle": "The main steps in using the model:",
-    "body": "<ol><li dir=\"ltr\"><p dir=\"ltr\"><strong>Formulate a question </strong>- the more precise the better. Agent-based models let you see the effects of changing two inputs at the same time but it&rsquo;s a good idea to start by changing one thing at a time. Varying that input then gives you different scenarios to compare. Once you have done this for two different inputs, you can then see how they interact by changing them both at the same time. Similarly, it&rsquo;s important to think ahead of time which output variables are important for your policy question.</p></li><li dir=\"ltr\"><p dir=\"ltr\"><strong>Let the model run </strong>- this involves letting the simulation run through the number of ticks specified, producing a dataset at the end.</p></li><li dir=\"ltr\"><p dir=\"ltr\"><strong>Compare the outputs </strong>- look at how the outputs that you came up with in step one are different in your different scenarios. Bear in mind, though, that there could be a number of explanations for these differences. The model is to help you think through possibilities in a structured way and shouldn&rsquo;t be used for prediction.</p></li></ol>",
+    "title": "The main steps in using the model are:",
+    "displayTitle": "The main steps in using the model are:",
+    "body": "<ol><li dir=\"ltr\"><p dir=\"ltr\"><strong>Formulate a question </strong>- the more precise the better. Agent-based models let you see the effects of changing two inputs at the same time but it&rsquo;s a good idea to start by changing one thing at a time. Varying that input then gives you different scenarios to compare. Once you have done this for two different inputs, you can see how they interact by changing them both at the same time.</p></li><li dir=\"ltr\"><p dir=\"ltr\"><strong>Let the model run </strong>- this involves letting the simulation run through the number of ticks specified, producing a dataset at the end.</p></li><li dir=\"ltr\"><p dir=\"ltr\"><strong>Compare the outputs </strong>- look at how the outputs that you came up with in step one are different in your different scenarios. Bear in mind that there could be a number of explanations for these differences. The model is to help you think through possibilities in a structured way and shouldn&rsquo;t be used for prediction.</p></li></ol>",
     "instruction": "",
     "_id": "5c9a4770dcb747055b9b3ffe",
     "_parentId": "5c9a4741dcb747055b9b3ffd",
@@ -873,7 +752,7 @@
     "_isVisible": true,
     "title": "Company characteristics",
     "displayTitle": "Company characteristics",
-    "body": "<p>Now think about firms - they turn data in to digital products and decide whether to share data with other firms and maintain systems to do so.</p><p>Consumers also decide whether to use their products based on these characteristics.</p><p>&nbsp;</p><p><strong>What characteristics have we associated with companies?</strong></p>",
+    "body": "<p>Companies use data to develop products and decide whether to share data with other companies.</p><p>Consumers decide whether to use products based on the characteristics of the company.</p>",
     "instruction": "",
     "_id": "5c9254d21fa46b052a6f1315",
     "_parentId": "5c9254b51fa46b052a6f1314",
@@ -921,7 +800,7 @@
     "_isVisible": true,
     "title": "How does data sharing affect innovation and company behaviour?",
     "displayTitle": "How does data sharing affect innovation and company behaviour?",
-    "body": "<p dir=\"ltr\">More data sharing could lead to more economic dynamism, and recent policies for data portability in Open Banking and GDPR have suggested that there could be a way to use technology to create a system for open, trustworthy data sharing that leads to more innovation and competitive markets.</p><p dir=\"ltr\">We&rsquo;d like to explore a little deeper how consumer-driven sharing of data affects markets for digital services like social media, music streaming and search - and other ones that haven&rsquo;t been invented yet!</p>",
+    "body": "<p dir=\"ltr\">More data sharing could lead to more economic dynamism. Recent policies for data portability in open banking and the EUn&rsquo;s General Data Protection Regulation (GDPR) have suggested that there could be a way to use technology to create a system for open, trustworthy data sharing that leads to more innovation and competitive markets.</p>",
     "instruction": "",
     "_id": "5c90c3ed168efa054562da4f",
     "_parentId": "5c9a157ddcb747055b9b3f3f",
@@ -961,75 +840,6 @@
     }
   },
   {
-    "_component": "text",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "title": "What happens next?",
-    "displayTitle": "",
-    "body": "<p dir=\"ltr\">Links to posts and blogs</p><p dir=\"ltr\">Blurb about the ideas we are hoping to develop over time</p>",
-    "instruction": "",
-    "_id": "5c9b41877d54690549568744",
-    "_parentId": "5c98ae7c420916053afab3ae",
-    "_type": "component",
-    "_layout": "right",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "_component": "graphic",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "title": "Image ",
-    "displayTitle": "",
-    "body": "",
-    "instruction": "",
-    "_id": "5c9a5771dcb747055b9b4038",
-    "_parentId": "5c9a5756dcb747055b9b4036",
-    "_type": "component",
-    "_layout": "right",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/828f3df220fc852bc1451d84dc3b7323f4985ac1.png",
-      "small": "course/en/assets/828f3df220fc852bc1451d84dc3b7323f4985ac1.png",
-      "attribution": ""
-    }
-  },
-  {
-    "_component": "text",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "title": "Consumers",
-    "displayTitle": "",
-    "body": "<p dir=\"ltr\">In our model, consumers have income and needs that determine how they spend it.</p><p dir=\"ltr\">We think of needs in terms of different types of product, or &lsquo;product categories&rsquo;. These can be things like messaging services, photo sharing services, music streaming services - but we don&rsquo;t name them as we&rsquo;re looking for a general model that accounts for categories that don&rsquo;t even exist yet!</p><p dir=\"ltr\"><strong>Each individual consumer in the model has a different need for each type - expressed as category-needs matrix that the model uses to look up what each consumer&rsquo;s need is. &nbsp;</strong></p><p dir=\"ltr\">We also include a &lsquo;privacy concern&rsquo; in order to model how consumers behave if one of the firms experiences something like a large data breach</p>",
-    "instruction": "",
-    "_id": "5c87a91767a1d80550784007",
-    "_parentId": "5c87a8fc67a1d80550784006",
-    "_type": "component",
-    "_layout": "left",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
     "_component": "narrative",
     "_classes": "inverted color-three",
     "_isOptional": false,
@@ -1055,33 +865,33 @@
     "_items": [
       {
         "title": "Disease control",
-        "body": "<p dir=\"ltr\">Many governments already use simple agent-based models to understand how epidemics might progress. These models contain simple rules about how diseases spread given a population with people who have natural immunity, people who are likely to recover and people who are likely to die. They also allow modellers to set simple rules based on how much contact these different members of the population have with each other.</p><p dir=\"ltr\"><a href=\"http://ncase.me/simulating/\" target=\"_blank\">http://ncase.me/simulating/</a></p>",
+        "body": "<p dir=\"ltr\">Many governments use simple agent-based models to understand epidemics. These models contain simple rules about how diseases spread through a population with people who have natural immunity, people who are likely to recover and people who are likely to die. They allow modellers to set simple rules based on how much contact these different members of the population have with each other.</p><p dir=\"ltr\"><a href=\"http://ncase.me/simulating/\" target=\"_blank\">More information</a></p>",
         "_graphic": {
-          "src": "course/en/assets/ae7416285b40d6c3ea144c60d86810e77b8e00c6.png",
+          "src": "course/en/assets/106de06c1c2d0875ee26028f561ad2c23ed8711e.png",
           "alt": "",
-          "attribution": "http://ncase.me/simulating/ <span class='assetLicence'>[CC0]</span>"
+          "attribution": " <span class='assetLicence'>[CC0]</span>"
         },
-        "strapline": "explanation 1"
+        "strapline": "Many governments use simple agent-based models to understand epidemics. "
       },
       {
         "title": "Bank of England housing market model",
-        "body": "<p>As part of its powers to stabilise the financial sector, the Bank of England can limit the level of high loan-to-income mortgages in the economy. The housing market is a complex set of feedback loops between owner-occupiers, Buy-to-Let landlords, renters and social housing tenants, so understanding the impact of this policy is a challenge using traditional economic modelling techniques. Researchers at the Institute of New Economic Thinking and the Bank of England built an agent-based model in order to understand how house prices might be affected by different policies. They found that limiting the number of high loan-to-income mortgages did make house prices more stable.</p><p><a href=\"https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2016/macroprudential-policy-in-an-agent-based-model-of-the-uk-housing-market.pdf\" target=\"_blank\">More information</a></p>",
+        "body": "<p>The Bank of England wanted to understand how limiting the ratio of loans-to-income in mortgages affects the housing market &ndash; a complex set of feedback loops between owner-occupiers, buy-to-let landlords, renters and social housing tenants. Researchers at the Institute of New Economic Thinking and the Bank of England built an agent-based model to understand the effects of limiting the ratio.</p><p><a href=\"https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2016/macroprudential-policy-in-an-agent-based-model-of-the-uk-housing-market.pdf\" target=\"_blank\">More information</a></p>",
         "_graphic": {
-          "src": "course/assets/4ed2043f69bf5c286d2b001d3ca015c7031b8884.png",
+          "src": "course/en/assets/2a66ce67ff72e20aba69a641de95e16868319ac5.png",
           "alt": "",
           "attribution": ""
         },
-        "strapline": "Example 2"
+        "strapline": "The Bank of England wanted to understand how limiting the ratio of loans-to-income in mortgages affects the housing market"
       },
       {
         "title": "Getting local heat networks built",
-        "body": "<p>Central government and local authorities have recognised that heat networks - pipes that distribute heating around a local area from a central source - could be key in building low-carbon local infrastructure. A team of academics at the University of Leeds used an ABM to try and understand what was stopping them from getting built and how central government could help. They used an agent-based model to move beyond economic analyses of individual projects to understand why small projects weren&rsquo;t scaling. This involved modelling how the different abilities and motives of local authorities, private developers and community groups, constrained by technical and social factors, affects the success of a large infrastructure projects. They found that supporting learning and networking between these groups and boosting local authorities capabilities could be particularly important.</p><p><a href=\"https://www.sciencedirect.com/science/article/pii/S0301421516305560?via%3Dihub#\" target=\"_blank\">More information</a></p>",
+        "body": "<p>The UK&rsquo;s central government and local authorities have recognised that heat networks &ndash; pipes that distribute heating around a local area from a central source &ndash; could be key in building low-carbon local infrastructure. A team of academics at the University of Leeds wanted to understand what was stopping them from being built and how central government could help. They used an agent-based model to understand why small projects weren&rsquo;t scaling. This involved modelling how the different abilities and motives of local authorities, private developers and community groups &ndash;constrained by technical and social factors &ndash; affect the success of large infrastructure projects.</p><p><a href=\"https://www.sciencedirect.com/science/article/pii/S0301421516305560?via%3Dihub#\" target=\"_blank\">More information</a></p>",
         "_graphic": {
           "src": "course/en/assets/305bd303a4b1da18cd798ba352319614e0491353.jpg",
           "alt": "",
           "attribution": " <span class='assetLicence'>[CC-BY]</span>"
         },
-        "strapline": "Example 3"
+        "strapline": "The UK’s central government and local authorities have recognised that heat networks could be key in building low-carbon local infrastructure."
       }
     ]
   },
@@ -1093,7 +903,7 @@
     "_isHidden": false,
     "_isVisible": true,
     "title": "Step through the tick cycle",
-    "displayTitle": "Step through the tick cycle",
+    "displayTitle": "",
     "body": "",
     "instruction": "",
     "_id": "5c87987e67a1d80550783ff1",
@@ -1110,8 +920,8 @@
     "_setCompletionOn": "inview",
     "_items": [
       {
-        "title": "Firm decisions",
-        "body": "<p dir=\"ltr\"><strong>First we look at company decisions and actions. </strong></p><p dir=\"ltr\">The model starts out with a number of companies with different characteristics but at the beginning of each tick cycle, new companies can enter the simulation that produce products in either existing or brand new categories - much like startups in the real world.</p><p dir=\"ltr\">Similarly, companies that already are in the simulation can go out of business based on what happened in the previous tick. Companies then request different types of data from others and companies holding this data decides whether to grant these requests. Following these data sharing decisions, companies try to improve their existing products. They then try to create new products in categories that they are already operating in, or in new categories. After consumers have made their decisions, companies receive payments from their customers that they put towards capital and receive data generated by customers using their product.</p>",
+        "title": "Company decisions",
+        "body": "<p dir=\"ltr\">The model starts with a number of companies with different characteristics, and at the beginning of each tick cycle new companies that produce products in either existing or brand new categories can enter the simulation &ndash; much like startups in the real world. Companies can also go out of business based on what happened in the previous tick.</p><p dir=\"ltr\">Companies request types of data from others and companies holding this data decide whether to grant these requests. Following these data-sharing decisions, companies try to improve their existing products. They then try to create new products in categories that they are already operating in, or in new categories. Companies receive payments from their customers that they put towards capital, and receive data generated by customers.</p>",
         "_graphic": {
           "src": "course/en/assets/6fee00c78c6b893dd31bb3719b01c073e671e079.png",
           "alt": "",
@@ -1121,7 +931,7 @@
       },
       {
         "title": "Consumer decisions",
-        "body": "<p>Now we complete the cycle with consumer decisions. Once it is clear what companies, categories and products are available, the first decision is what categories consumers would like to purchase a product in. Consumers then decide how to split their income between products from different companies within these categories and purchase these products.</p>",
+        "body": "<p>The cycle completes with consumer decisions. Once it is clear what companies, categories and products are available, consumers purchase from a product category. Consumers then decide how to split their income between products from different companies within these categories and purchase these products.</p>",
         "_graphic": {
           "src": "course/en/assets/7db51a44520f29b584c7e531474d030ad462559b.png",
           "alt": "",
@@ -1130,8 +940,8 @@
         "strapline": "cycle 2"
       },
       {
-        "title": "Influences to the cycle",
-        "body": "<p dir=\"ltr\"><strong>Each step in the tick cycle is influenced by a range of factors. These include agent characteristics, previous decisions by other agents and the environment of the model. </strong></p><p dir=\"ltr\">Whether a company requests data from another depends on how much the types that they currently have access to overlap. Whether a company grants a data request depends on how big the requester is in terms of users, how much they are competing in the same categories and how much the overall environment encourages open data sharing. The success of companies&rsquo; attempts to improve their existing products depends on the data and the amount of capital that they have access to. The probability of creating new products also depends on how good the company is at innovation.</p><p>&nbsp;</p><p dir=\"ltr\">Consumers make purchasing decisions based on the &lsquo;utility&rsquo; they get from products - a combination of inherent needs and perceptions of companies. Firstly, they decide on what categories they&rsquo;ll purchase products from based on their entry in the model&rsquo;s category-needs matrix, which is the same for every tick cycle. They then choose a product based on the companies providing them in that category. This is based on whether they are already using that company&rsquo;s product or other products from that company in other categories, how much they care about privacy and the company&rsquo;s reputation on privacy and their perception of how easy it is to share their data from that product with other companies.</p>",
+        "title": "Factors in the cycle",
+        "body": "<p dir=\"ltr\">Each step in the tick cycle is influenced by a range of factors. These include agent characteristics, previous decisions by other agents and the environment of the model.</p><p dir=\"ltr\">Whether a company requests data from another depends on how much the data types overlap. Data requests are granted depending on the relative sizes of the companies, how much they compete in product categories, and the level of data sharing in the environment. The probability of creating new products also depends on how good the company is at innovating with the data they have access to.</p><p dir=\"ltr\">Consumers make purchasing decisions based on their needs and the perceptions they have of companies. They use the category-needs matrix to choose a product category &ndash; which is the same for every tick cycle. They then make a product choice based on privacy, the ease or data sharing and whether they are already using that company&rsquo;s product or other products from that company in other categories.</p>",
         "_graphic": {
           "src": "course/en/assets/5c3aa03c72b408dabe753c48b61351584e7daa91.png",
           "alt": "",
@@ -1150,7 +960,7 @@
     "_isVisible": true,
     "title": "Platform preference",
     "displayTitle": "",
-    "body": "<p><strong>Platform preference</strong></p><p>Customers may prefer to use products of different types from the same firm for reasons in addition to the ease of data sharing. For example, if you are used to using a firm&rsquo;s email service, you may want to use their calendar service as well because the user experience feels more seamless.</p>",
+    "body": "<p><strong>Platform preference</strong></p><p>Customers may prefer to use different products types from the same company for reasons in addition to the ease of data sharing. For example, if you are used to using a company&rsquo;s email service, you may want to use their calendar service as well because the user experience feels more seamless.</p>",
     "instruction": "",
     "_id": "5c926d311fa46b052a6f1347",
     "_parentId": "5c926d041fa46b052a6f1344",
@@ -1171,7 +981,7 @@
     "_isVisible": true,
     "title": "Full model image",
     "displayTitle": "",
-    "body": "<p>To build an ABM we need to think about agents and their characteristics, the environment that they&rsquo;re operating in, what decisions they need to make and the factors that govern those decisions. Mapping these out in a &lsquo;boxology&rsquo; of the model gives us a simple way of visualising all these different elements. It&rsquo;s a &lsquo;snapshot&rsquo; of the model that we can refer back to when deciding how to use it to answer our policy question.</p>",
+    "body": "<p>The parts of the agent-based model can be mapped so that we have a simple way of seeing them all together. This gives us a snapshot of the model that we can refer back to when deciding how to use it to answer our policy question: <strong>What is the effect of openness on data sharing and innovation by companies?</strong></p>",
     "instruction": "",
     "_id": "5c9a42c5dcb747055b9b3ff6",
     "_parentId": "5c9a42aadcb747055b9b3ff5",
@@ -1225,7 +1035,7 @@
     "_isVisible": true,
     "title": "How can I interpret the results in relation to data sharing? ",
     "displayTitle": "",
-    "body": "<p dir=\"ltr\"><strong>How can I interpret the results in relation to data sharing?&nbsp;</strong></p><p dir=\"ltr\">To answer the question, we set our &lsquo;openness&rsquo; variable to low, medium and high, keeping all the other inputs the same.</p><p dir=\"ltr\">To understand the impact on our stylised market in digital products, we look at seven visualisations of the data produced by the model.</p>",
+    "body": "<p dir=\"ltr\"><strong>How can the results of the model be interpreted? &nbsp;</strong></p><p dir=\"ltr\">To understand the impact on our stylised market in digital products, the model produces a number of visual outputs.</p>",
     "instruction": "",
     "_id": "5c9b3d687d54690549568713",
     "_parentId": "5c9b3d607d54690549568712",
@@ -1242,7 +1052,7 @@
     "_items": [
       {
         "title": "Biggest companies",
-        "body": "<p dir=\"ltr\">This graph shows the proportion of all consumers using the three biggest companies&rsquo; products in a product category like such as videos or music.</p><p dir=\"ltr\">Graph 1 - low vs medium</p><p dir=\"ltr\">Graph 2 - medium vs high</p>",
+        "body": "<p dir=\"ltr\">This graph shows the proportion of all consumers using the three biggest companies&rsquo; products in a product category like such as videos or music. (&lsquo;Biggest&rsquo; is determined by number of users)</p>",
         "_graphic": {
           "src": "course/en/assets/2a66ce67ff72e20aba69a641de95e16868319ac5.png",
           "alt": "",
@@ -1252,7 +1062,7 @@
       },
       {
         "title": "Data sharing with small, new companies",
-        "body": "<p dir=\"ltr\">This graph shows how many data sharing requests were granted to companies in their first year, and how many products they have at the end of that first year. If small and young companies can quickly gather data, they might be able to offer new products and grow.</p><p dir=\"ltr\">Graph 1 - low vs medium</p><p dir=\"ltr\">Graph 2 - medium vs high</p>",
+        "body": "<p dir=\"ltr\">This graph shows how many data-sharing requests were granted to companies in their first year, and how many products they have at the end of that first year. If small and young companies can quickly gather data, they might be able to offer new products and grow.</p>",
         "_graphic": {
           "src": "course/en/assets/2a66ce67ff72e20aba69a641de95e16868319ac5.png",
           "alt": "",
@@ -1262,7 +1072,7 @@
       },
       {
         "title": "New products created by companies",
-        "body": "<p dir=\"ltr\">This graph shows firms offering new products in the product categories. Companies leave the market when they don&#39;t have enough customers or run out of money</p><p dir=\"ltr\">Graph 1 - low vs medium</p><p dir=\"ltr\">Graph 2 - medium vs high</p>",
+        "body": "<p dir=\"ltr\">This graph shows companies offering new products in the product categories. Companies leave the market when they don&#39;t have enough customers or run out of money.</p>",
         "_graphic": {
           "src": "course/en/assets/2a66ce67ff72e20aba69a641de95e16868319ac5.png",
           "alt": "",
@@ -1272,7 +1082,7 @@
       },
       {
         "title": "Companies making products across product categories",
-        "body": "<p dir=\"ltr\">This graph shows the frequency of companies making products in given product categories.</p><p dir=\"ltr\">Graph 1 - low vs medium</p><p dir=\"ltr\">Graph 2 - medium vs high</p>",
+        "body": "<p dir=\"ltr\">This graph shows the frequency of companies making products in given product categories.</p>",
         "_graphic": {
           "src": "course/en/assets/2a66ce67ff72e20aba69a641de95e16868319ac5.png",
           "alt": "",
@@ -1282,17 +1092,7 @@
       },
       {
         "title": "Consumers purchasing more than one product across companies",
-        "body": "<p dir=\"ltr\">This graph shows the proportion of consumers purchasing products from a given number of companies in the last 12 months, with no distinction between single or multiple use.</p><p dir=\"ltr\">Graph 1 - low vs medium</p><p dir=\"ltr\">Graph 2 - medium vs high</p>",
-        "_graphic": {
-          "src": "course/en/assets/2a66ce67ff72e20aba69a641de95e16868319ac5.png",
-          "alt": "",
-          "attribution": ""
-        },
-        "strapline": "Another example"
-      },
-      {
-        "title": "Companies innovating products in new and existing categories",
-        "body": "<p dir=\"ltr\">These graphs show the number of products being offered over time to consumers, in existing and new product categories.</p><p dir=\"ltr\">Graph 1 - low vs medium</p><p dir=\"ltr\">Graph 2 - medium vs high</p>",
+        "body": "<p dir=\"ltr\">This graph shows the proportion of consumers purchasing products from a given number of companies in the last 12 months, with no distinction between single or multiple use.</p>",
         "_graphic": {
           "src": "course/en/assets/2a66ce67ff72e20aba69a641de95e16868319ac5.png",
           "alt": "",
@@ -1301,14 +1101,24 @@
         "strapline": "almost last example"
       },
       {
-        "title": "Consumer satisfaction with the products offered by companies",
-        "body": "<p dir=\"ltr\">This graph shows how well the products are satisfying consumer needs. The horizontal lines plotted on the graph represent the maximum quality available in the product categories. The product categories are ordered horizontally by how many consumers are using them, a way of testing how &lsquo;useful&rsquo; they are to consumers in the simulation. This plot therefore shows us whether the most used product categories have the highest quality products - in other words, whether innovation is making products that people really want better.</p><p dir=\"ltr\">Graph 1 - low vs medium</p><p dir=\"ltr\">Graph 2 - medium vs high</p>",
+        "title": "Companies innovating products in new and existing categories",
+        "body": "<p>These graphs show the number of products being offered over time to consumers, in existing and new product categories.</p>",
         "_graphic": {
           "src": "course/en/assets/2a66ce67ff72e20aba69a641de95e16868319ac5.png",
           "alt": "",
           "attribution": ""
         },
         "strapline": "Last example"
+      },
+      {
+        "title": "Consumer satisfaction with the products offered by companies",
+        "body": "<p>This graph shows how well the products are satisfying consumer needs.</p>",
+        "_graphic": {
+          "src": "course/en/assets/2a66ce67ff72e20aba69a641de95e16868319ac5.png",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "Actual last image"
       }
     ]
   }
