@@ -6,8 +6,8 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "title": "What the ODI’s agent-based model isn’t:",
-    "displayTitle": "What the ODI’s agent-based model isn’t:",
+    "title": "But it isn't...",
+    "displayTitle": "But it isn't...",
     "body": "<p dir=\"ltr\">- Based on real-world data collected from companies and consumers</p><p dir=\"ltr\">- A model that predicts the real-world effects of different policy choices</p><p dir=\"ltr\">- A theoretical model capturing all the possible features of the companies, customers and public institutions involved with data sharing</p>",
     "instruction": "",
     "_id": "5c9a14e7dcb747055b9b3f3e",
@@ -66,7 +66,7 @@
     "_isVisible": true,
     "title": "How reliable is the model and how can I check this?",
     "displayTitle": "",
-    "body": "<p dir=\"ltr\">This has been a quick overview of the agent-based model that we made to explore the impact of data sharing on innovation.</p><p dir=\"ltr\">If who would like to explore the model further you can look at</p><p dir=\"ltr\">- <span style=\"color:#0000FF\"><u>Model documentation</u></span> &ndash; this is a more technical and comprehensive description of the model, including the equations governing agent decisions and behaviour.</p><p dir=\"ltr\">- <span style=\"color:#0000FF\"><u>Model python code </u></span>&ndash; this is available on Github and can be installed on your computer. This allows you to interact with more elements of the model and modify it.</p>",
+    "body": "<p dir=\"ltr\">This has been a quick overview of the agent-based model that we made to explore the impact of data sharing on innovation.</p><p dir=\"ltr\">If who would like to explore the model further you can look at</p><p dir=\"ltr\">- <a href=\"http://github.com/theodi/data-sharing-abm-model\" target=\"_blank\"><span style=\"color:#0000FF\"><u>Model documentation</u></span></a> &ndash; this is a more technical and comprehensive description of the model, including the equations governing agent decisions and behaviour.</p><p dir=\"ltr\">- <span style=\"color:#0000FF\"><u><a href=\"https://github.com/theodi/data-sharing-abm-model\" target=\"_blank\">Model python code</a> </u></span>&ndash; this is available on Github and can be installed on your computer. This allows you to interact with more elements of the model and modify it.</p>",
     "instruction": "",
     "_id": "5c98ae96420916053afab3b0",
     "_parentId": "5c98ae7c420916053afab3ae",
@@ -156,7 +156,7 @@
     "_isVisible": true,
     "title": "How to use the model",
     "displayTitle": "",
-    "body": "<p dir=\"ltr\">There are many things that can be changed in the model &ndash; from the strength of the effect of the different agent characteristics to the number of consumers. This can get very confusing very quickly and means that the model s best used to explore a clear research question. Simple questions help you to define what you want to change and what impact you want to see.</p><p dir=\"ltr\">Model outputs are visualised and interpreted. This can be done directly by running model code and analysing the data it generates with statistical software.</p><p dir=\"ltr\"><strong><span style=\"color:#0000FF\"><u>Model code</u></span> and <span style=\"color:#0000FF\"><u>documentation</u></span> can be found here. </strong></p>",
+    "body": "<p dir=\"ltr\">There are many things that can be changed in the model &ndash; from the strength of the effect of the different agent characteristics to the number of consumers. This can get very confusing very quickly and means that the model s best used to explore a clear research question. Simple questions help you to define what you want to change and what impact you want to see.</p><p dir=\"ltr\">Model outputs are visualised and interpreted. This can be done directly by running model code and analysing the data it generates with statistical software.</p><p dir=\"ltr\"><strong><a href=\"http://github.com/theodi/data-sharing-abm-model\" target=\"_blank\"><span style=\"color:#0000FF\"><u>Model code</u></span></a><a href=\"http://github.com/theodi/data-sharing-abm-model\" target=\"_blank\"><span style=\"color:#0000FF\">&nbsp;and&nbsp;<u>documentation</u></span></a> can be found here. </strong></p>",
     "instruction": "",
     "_id": "5c98ae9f420916053afab3b3",
     "_parentId": "5c98ae9c420916053afab3b2",
@@ -419,7 +419,7 @@
     "_isVisible": true,
     "title": "Text part 1",
     "displayTitle": "",
-    "body": "<p dir=\"ltr\">Data sharing is the ability for one organisation to share data with another, enabling the receiver to provide a service. This could make it easier for consumers to switch to competing services, or use services that complement what they&rsquo;re already using.</p><p dir=\"ltr\">Common technical standards between companies make it easier to share many types of data, in a safe and secure way, with clarity about who has consent to control it. &nbsp;&nbsp;&nbsp;</p><p dir=\"ltr\"><span style=\"color:#0000FF\"><u>Link to blog</u></span>&nbsp;and further reading about <span style=\"color:#0000FF\"><u>standards</u></span></p>",
+    "body": "<p dir=\"ltr\">Data sharing is the ability for one organisation to share data with another, enabling the receiver to provide a service. This could make it easier for consumers to switch to competing services, or use services that complement what they&rsquo;re already using.</p><p dir=\"ltr\">Common technical standards between companies make it easier to share many types of data, in a safe and secure way, with clarity about who has consent to control it. &nbsp;&nbsp;&nbsp;</p><p dir=\"ltr\"><a href=\"https://theodi.org/article/how-can-we-predict-the-impact-of-data-policy/\" target=\"_blank\"><span style=\"color:#0000FF\"><u>Link to blog</u></span></a>&nbsp;and further reading about <a href=\"http://standards.theodi.org/\" target=\"_blank\"><span style=\"color:#0000FF\"><u>standards</u></span></a></p>",
     "instruction": "",
     "_id": "5c9a565ddcb747055b9b4034",
     "_parentId": "5c9a5636dcb747055b9b4033",
@@ -514,7 +514,7 @@
     "_isVisible": true,
     "title": "What happens next?",
     "displayTitle": "",
-    "body": "<p dir=\"ltr\">The model is just the ODI&rsquo;s first attempt at modelling the effects of data sharing on innovation in the economy. If you would like to help us develop it, please get in touch: lawrence.kay@theodi.org.</p><p dir=\"ltr\">In the meantime you can read more about our work on data sharing and innovation:</p><p dir=\"ltr\"><span style=\"color:#0000FF\">-&nbsp;</span><u><a href=\"https://theodi.org/article/will-gdpr-and-data-portability-support-innovation/\" target=\"_blank\"><span style=\"color:#0000FF\">Will GDPR and data portability support innovation?</span></a></u></p><p dir=\"ltr\"><span style=\"color:#0000FF\">-&nbsp;</span><u><a href=\"https://theodi.org/article/furman-review-access-to-data-is-a-new-tool-against-monopoly/\" target=\"_blank\"><span style=\"color:#0000FF\">Furman Review: Access to data is a new tool against monopoly</span></a></u></p><p dir=\"ltr\"><span style=\"color:#0000FF\">-&nbsp;</span><u><a href=\"https://theodi.org/topic/data-infrastructure/\" target=\"_blank\"><span style=\"color:#0000FF\">What is data infrastructure?</span></a></u></p>",
+    "body": "<p dir=\"ltr\">The model is just the ODI&rsquo;s first attempt at modelling the effects of data sharing on innovation in the economy. If you would like to help us develop it, please <a href=\"https://theodi.org/about-the-odi/contact-us/\" target=\"_blank\">get in touch</a>: lawrence.kay@theodi.org.</p><p dir=\"ltr\">In the meantime you can read more about our work on data sharing and innovation:</p><p dir=\"ltr\"><span style=\"color:#0000FF\">-&nbsp;</span><u><a href=\"https://theodi.org/article/will-gdpr-and-data-portability-support-innovation/\" target=\"_blank\"><span style=\"color:#0000FF\">Will GDPR and data portability support innovation?</span></a></u></p><p dir=\"ltr\"><span style=\"color:#0000FF\">-&nbsp;</span><u><a href=\"https://theodi.org/article/furman-review-access-to-data-is-a-new-tool-against-monopoly/\" target=\"_blank\"><span style=\"color:#0000FF\">Furman Review: Access to data is a new tool against monopoly</span></a></u></p><p dir=\"ltr\"><span style=\"color:#0000FF\">-&nbsp;</span><u><a href=\"https://theodi.org/topic/data-infrastructure/\" target=\"_blank\"><span style=\"color:#0000FF\">What is data infrastructure?</span></a></u></p>",
     "instruction": "",
     "_id": "5c9b41877d54690549568744",
     "_parentId": "5c98ae7c420916053afab3ae",
@@ -618,8 +618,8 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "title": "What the ODI’s agent-based model is:",
-    "displayTitle": "What the ODI’s agent-based model is:",
+    "title": "Our innovation and data-sharing agent-based model is…",
+    "displayTitle": "Our innovation and data-sharing agent-based model is…",
     "body": "<p dir=\"ltr\">- Computing software that creates simulated data</p><p dir=\"ltr\">- An experimental approach to thinking about policy questions on data sharing</p><p dir=\"ltr\">- An aid to making sense of one part of a complex system and visualising how some economic aspects might behave as a whole</p><p dir=\"ltr\">- A way of capturing the thoughts of the experts who we&rsquo;ve been working with</p><p dir=\"ltr\">- A way of learning how policy experts and experts in new modelling techniques can work together</p><p dir=\"ltr\">- A tool to aid discussion within the ODI and with other interested people about our collective assumptions about the data economy</p>",
     "instruction": "",
     "_id": "5c9a1494dcb747055b9b3f3d",
@@ -877,9 +877,9 @@
         "title": "Bank of England housing market model",
         "body": "<p>The Bank of England wanted to understand how limiting the ratio of loans-to-income in mortgages affects the housing market &ndash; a complex set of feedback loops between owner-occupiers, buy-to-let landlords, renters and social housing tenants. Researchers at the Institute of New Economic Thinking and the Bank of England built an agent-based model to understand the effects of limiting the ratio.</p><p><a href=\"https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2016/macroprudential-policy-in-an-agent-based-model-of-the-uk-housing-market.pdf\" target=\"_blank\">More information</a></p>",
         "_graphic": {
-          "src": "course/en/assets/2a66ce67ff72e20aba69a641de95e16868319ac5.png",
+          "src": "course/en/assets/d9eb1e10bd91670b3ae146041d9edb5aebcab8a9.png",
           "alt": "",
-          "attribution": ""
+          "attribution": "Bank Of England <span class='assetLicence'>[CC-BY]</span>"
         },
         "strapline": "The Bank of England wanted to understand how limiting the ratio of loans-to-income in mortgages affects the housing market"
       },
@@ -1054,9 +1054,9 @@
         "title": "Biggest companies",
         "body": "<p dir=\"ltr\">This graph shows the proportion of all consumers using the three biggest companies&rsquo; products in a product category like such as videos or music. (&lsquo;Biggest&rsquo; is determined by number of users)</p>",
         "_graphic": {
-          "src": "course/en/assets/2a66ce67ff72e20aba69a641de95e16868319ac5.png",
+          "src": "course/en/assets/6efb334a798149157d9065c0722dc77dc889b22a.png",
           "alt": "",
-          "attribution": ""
+          "attribution": " <span class='assetLicence'>[CC0]</span>"
         },
         "strapline": "This is a graph"
       },
@@ -1064,9 +1064,9 @@
         "title": "Data sharing with small, new companies",
         "body": "<p dir=\"ltr\">This graph shows how many data-sharing requests were granted to companies in their first year, and how many products they have at the end of that first year. If small and young companies can quickly gather data, they might be able to offer new products and grow.</p>",
         "_graphic": {
-          "src": "course/en/assets/2a66ce67ff72e20aba69a641de95e16868319ac5.png",
+          "src": "course/en/assets/526b7832fcca61a8aa518a0cb4885c37367c9aa9.png",
           "alt": "",
-          "attribution": ""
+          "attribution": " <span class='assetLicence'>[CC0]</span>"
         },
         "strapline": "Another graph!"
       },
@@ -1074,9 +1074,9 @@
         "title": "New products created by companies",
         "body": "<p dir=\"ltr\">This graph shows companies offering new products in the product categories. Companies leave the market when they don&#39;t have enough customers or run out of money.</p>",
         "_graphic": {
-          "src": "course/en/assets/2a66ce67ff72e20aba69a641de95e16868319ac5.png",
+          "src": "course/en/assets/6e3f61d6a64605d7edd8873f2e58ca18bf161fe6.png",
           "alt": "",
-          "attribution": ""
+          "attribution": " <span class='assetLicence'>[CC0]</span>"
         },
         "strapline": "A graph"
       },
@@ -1084,9 +1084,9 @@
         "title": "Companies making products across product categories",
         "body": "<p dir=\"ltr\">This graph shows the frequency of companies making products in given product categories.</p>",
         "_graphic": {
-          "src": "course/en/assets/2a66ce67ff72e20aba69a641de95e16868319ac5.png",
+          "src": "course/en/assets/1d257d579e9110c12a9f39903fe0aa50719ec29a.png",
           "alt": "",
-          "attribution": ""
+          "attribution": " <span class='assetLicence'>[CC0]</span>"
         },
         "strapline": "A graph!"
       },
@@ -1094,9 +1094,9 @@
         "title": "Consumers purchasing more than one product across companies",
         "body": "<p dir=\"ltr\">This graph shows the proportion of consumers purchasing products from a given number of companies in the last 12 months, with no distinction between single or multiple use.</p>",
         "_graphic": {
-          "src": "course/en/assets/2a66ce67ff72e20aba69a641de95e16868319ac5.png",
+          "src": "course/en/assets/96b4481d17cdb55e8b5f6fb13665e979fc5347e4.png",
           "alt": "",
-          "attribution": ""
+          "attribution": " <span class='assetLicence'>[CC0]</span>"
         },
         "strapline": "almost last example"
       },
@@ -1104,9 +1104,9 @@
         "title": "Companies innovating products in new and existing categories",
         "body": "<p>These graphs show the number of products being offered over time to consumers, in existing and new product categories.</p>",
         "_graphic": {
-          "src": "course/en/assets/2a66ce67ff72e20aba69a641de95e16868319ac5.png",
+          "src": "course/en/assets/1a5dfea7cf1a83e5fa1d1a699fc6dd48db3ca060.png",
           "alt": "",
-          "attribution": ""
+          "attribution": " <span class='assetLicence'>[CC0]</span>"
         },
         "strapline": "Last example"
       },
@@ -1114,9 +1114,9 @@
         "title": "Consumer satisfaction with the products offered by companies",
         "body": "<p>This graph shows how well the products are satisfying consumer needs.</p>",
         "_graphic": {
-          "src": "course/en/assets/2a66ce67ff72e20aba69a641de95e16868319ac5.png",
+          "src": "course/en/assets/6eeb4360795a662bd2a406dff47e0997f9cd0261.png",
           "alt": "",
-          "attribution": ""
+          "attribution": " <span class='assetLicence'>[CC0]</span>"
         },
         "strapline": "Actual last image"
       }
