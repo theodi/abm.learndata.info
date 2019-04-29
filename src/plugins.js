@@ -1,1 +1,0 @@
-requirejs.config({map: { "*": { "extensions/extensions":"plugins","menu/menu":"plugins","theme/theme":"plugins","components/components":"plugins" } } });
