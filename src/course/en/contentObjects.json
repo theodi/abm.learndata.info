@@ -1,0 +1,106 @@
+[
+  {
+    "title": "Innovation through data sharing ",
+    "displayTitle": "Innovation through data sharing ",
+    "body": "<p dir=\"ltr\">Data sharing could increase innovation.</p><p dir=\"ltr\">But what are agent-based models, how have they been used to explore policy questions, and how might they be used to think about data sharing and the development of new products and services?</p>",
+    "_classes": "inverted color-five",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c87832f67a1d80550783fc2",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "Image of graphs",
+      "src": "course/en/assets/b6ab772a60873a86ac89150b66cffdd83c3412ed.png"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "title": "Model Parts",
+    "displayTitle": "Model Parts",
+    "body": "<p>To build an agent-based model we need to think about agents and their characteristics, the environment they operate in, what decisions they need to make and the factors that affect those decisions.</p>",
+    "_classes": "",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c87906067a1d80550783fdc",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": "course/en/assets/1975f52a31fff0f29f9695feb760b535470c42e2.png"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "title": "Using the model to explore policy",
+    "displayTitle": "Using the model to explore policy",
+    "body": "<p>The illustrative world in the model allows us to see how changing the inputs affects the decisions of the agents. This section walks you through the exploration of our policy question as an example.</p>",
+    "_classes": "",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c87e3c667a1d80550784012",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": "course/en/assets/894af128e8074bf3b427a0835dfd735d228bfdd0.png"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "title": "Further reading",
+    "displayTitle": "Further reading",
+    "body": "<p>There is lots more to find out about the model and the ODI&#39;s work. You can also&nbsp;<a href=\"https://theodi.org/about-the-odi/contact-us/\" target=\"_blank\"><span style=\"color:#0000FF\"><u>contact us</u></span></a>.</p>",
+    "_classes": "",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5c87e3ea67a1d80550784015",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": "course/en/assets/68915de4c923df065f9f95a0d0d08685a30833e4.png"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  }
+]

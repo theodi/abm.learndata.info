@@ -1,0 +1,1104 @@
+[
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "The tick cycle",
+    "displayTitle": "",
+    "body": "<p>Time in an agent-based model is separated into chunks in which agents make decisions. Each chunk is called a &lsquo;tick&rsquo;. Agents make a sequence of decisions and take actions defined in a tick, the results of those actions are recorded and then the sequence begins again.</p><p>This list of decisions and actions is called a &lsquo;tick cycle&rsquo;, and thinking about what affects the decisions in the tick cycle helped us to think about which factors we should include in the model. This means that there is a back and forth between formulating a tick cycle and deciding agent characteristics and the environment.</p>",
+    "instruction": "",
+    "_id": "5c9a3f13dcb747055b9b3fde",
+    "_parentId": "5c9a3eefdcb747055b9b3fdb",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Component title",
+    "displayTitle": "Component title",
+    "body": "",
+    "instruction": "",
+    "_id": "5c9a3604dcb747055b9b3fcd",
+    "_parentId": "5c9a317ddcb747055b9b3f96",
+    "_type": "component",
+    "_layout": "left"
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "How reliable is the model and how can I check this?",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\">This has been a quick overview of the agent-based model that we made to explore the impact of data sharing on innovation.</p><p dir=\"ltr\">If who would like to explore the model further you can look at</p><p dir=\"ltr\">- <a href=\"http://github.com/theodi/data-sharing-abm-model\" target=\"_blank\"><span style=\"color:#0000FF\"><u>Model documentation</u></span></a> &ndash; this is a more technical and comprehensive description of the model, including the equations governing agent decisions and behaviour.</p><p dir=\"ltr\">- <span style=\"color:#0000FF\"><u><a href=\"https://github.com/theodi/data-sharing-abm-model\" target=\"_blank\">Model python code</a> </u></span>&ndash; this is available on Github and can be installed on your computer. This allows you to interact with more elements of the model and modify it.</p>",
+    "instruction": "",
+    "_id": "5c98ae96420916053afab3b0",
+    "_parentId": "5c98ae7c420916053afab3ae",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "\"Opennes\"",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\"><strong>Openness</strong></p><p dir=\"ltr\">This is a simple way of describing different levels of data sharing.</p><p dir=\"ltr\">Low openness corresponds to our current world, where data infrastructure for sharing data is not properly developed. High levels of openness correspond to much easier sharing of data, perhaps implemented through open application programming interfaces.</p>",
+    "instruction": "",
+    "_id": "5c926d2c1fa46b052a6f1346",
+    "_parentId": "5c926d041fa46b052a6f1344",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Image",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_id": "5c90c643168efa054562da51",
+    "_parentId": "5c87a01967a1d80550784001",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/7c9b9a14708b78142432080de0cfdb07810a5f7f.png",
+      "small": "course/en/assets/7c9b9a14708b78142432080de0cfdb07810a5f7f.png",
+      "attribution": " <span class='assetLicence'>[CC0]</span>"
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Assumptions",
+    "displayTitle": "Assumptions",
+    "body": "<p dir=\"ltr\">The model has assumptions that make it simpler and easier to use while exploring answers to our policy question. They are based on expert opinion, and to improve them we would need real-world data to learn whether our assumptions are helpfully simplifying or critical to the effects of data sharing on innovation.</p><p dir=\"ltr\"><u>Examples of our assumptions include the following:</u> &nbsp;&nbsp;</p><p dir=\"ltr\">- We assumed that companies don&rsquo;t develop products until they&rsquo;ve got data access.</p><p dir=\"ltr\">- New companies randomly decide what products they&rsquo;re going to make, with no reference to consumers&rsquo; needs.</p><p dir=\"ltr\">- Consumers make decisions on the types of products they use based on inherent needs that aren&rsquo;t influenced by anything companies do.</p><p dir=\"ltr\">&nbsp;</p><p dir=\"ltr\">&nbsp;</p><p dir=\"ltr\"><a class=\"button\" href=\"https://theodi.github.io/abm.learndata.info/#/id/5c87e3c667a1d80550784012\">Next: Using the model to explore policy</a></p>",
+    "instruction": "",
+    "_id": "5c9a55a4dcb747055b9b4030",
+    "_parentId": "5c9a43b0dcb747055b9b3ffb",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "How to use the model",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\">There are several interesting things that can be changed in the model &ndash; from the strength of the agent characteristics to the number of consumers - and having a simple question before you start playing with them can help with gauging the effects that you would like to test.</p><p dir=\"ltr\">Model outputs are visualised and interpreted. This can be done directly by running model code and analysing the data it generates with statistical software.</p><p dir=\"ltr\"><strong><a href=\"http://github.com/theodi/data-sharing-abm-model\" target=\"_blank\"><span style=\"color:#0000FF\"><u>Model code</u></span></a><a href=\"http://github.com/theodi/data-sharing-abm-model\" target=\"_blank\"><span style=\"color:#0000FF\">&nbsp;and&nbsp;<u>documentation</u></span></a> can be found here. </strong></p>",
+    "instruction": "",
+    "_id": "5c98ae9f420916053afab3b3",
+    "_parentId": "5c98ae9c420916053afab3b2",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Agents",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_id": "5c9a2979dcb747055b9b3f4d",
+    "_parentId": "5c9a294edcb747055b9b3f4b",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/9d0485154c8e233545d43ad252b20b8afbe3563e.png",
+      "small": "course/en/assets/9d0485154c8e233545d43ad252b20b8afbe3563e.png",
+      "attribution": " <span class='assetLicence'>[All rights reserved]</span>"
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Agents in our model",
+    "displayTitle": "Agents in our model",
+    "body": "",
+    "instruction": "",
+    "_id": "5c8f83899e383705378cfe4c",
+    "_parentId": "5c8f83819e383705378cfe4b",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/ebdab150865ac0e23755e50b2da90ca5cb34460c.png",
+      "small": "course/en/assets/26cfbf1504b1244e311f5c2e2fa2339e680aa2f2.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Data model image",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_id": "5c9230c51fa46b052a6f12d8",
+    "_parentId": "5c8f6c8f9e383705378cfe33",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/b80a0028233de4594fef5a3ffa87f9edbdec0550.png",
+      "small": "course/en/assets/b80a0028233de4594fef5a3ffa87f9edbdec0550.png",
+      "attribution": " <span class='assetLicence'>[CC0]</span>"
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "More text",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\">The practical factors in data sharing have been simplified into &lsquo;openness&rsquo; in the model. It can be set to:</p><p dir=\"ltr\"><strong>Low: </strong>sharing between companies is difficult. This is analogous to the situation under GDPR, where despite the right to data portability, sharing is driven by individual consumer action and there is limited action on standards to make data interoperable between companies.</p><p dir=\"ltr\"><strong>Medium: </strong>sharing between companies is easier but barriers still remain. This could be an outcome of the Data Transfer Project recently announced by Google, Facebook, Twitter and Microsoft. The project is a technical, developer-led solution to how standards for various types of data might be implemented. Questions around who designs the standards and who grants access to data are still to be resolved.</p><p dir=\"ltr\"><strong>High: </strong>sharing between companies is easy and barriers are minimal and purposeful. This could be the outcome of industry-wide action on open application programming interfaces. Both the technical and decision-making issues are resolved by a forum that balances the incentives of large and small private sector organisations, consumers and the public sector.</p>",
+    "instruction": "",
+    "_id": "5c9a5765dcb747055b9b4037",
+    "_parentId": "5c9a5636dcb747055b9b4033",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Parameters image",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_id": "5c9a477fdcb747055b9b3fff",
+    "_parentId": "5c98ae9c420916053afab3b2",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/d9abcc68fc1bf7b74da7e3b5a45009d475edee18.png",
+      "small": "course/en/assets/d9abcc68fc1bf7b74da7e3b5a45009d475edee18.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_component": "accordion",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Who could they be?",
+    "displayTitle": "",
+    "body": "<p>In an agent-based model, agents are individuals or organisations that make decisions according to their circumstances, just as you would decide between two products in a shop that have different prices.</p>",
+    "instruction": "",
+    "_id": "5c9248ee1fa46b052a6f12e0",
+    "_parentId": "5c8f83819e383705378cfe4b",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_items": [
+      {
+        "title": "Consumers",
+        "body": "<p>The buying and selling of digital products between consumers and companies is the main relationship in the model.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Companies",
+        "body": "<p>Companies hold customer data and request it from other companies to create new products.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": false
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Text",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\">The model can be used to explore other research questions. For example, it could be used to look at what might happen if the model has a high level of openness in it and</p><p dir=\"ltr\">- there are no big companies</p><p dir=\"ltr\">- privacy concerns are different</p><p dir=\"ltr\">- consumer loyalty to companies is different</p><p dir=\"ltr\">- a company shares personal data suddenly and unexpectedly, and consumers become more concerned about sharing personal data with any company.</p><p dir=\"ltr\">&nbsp;</p><p dir=\"ltr\">&nbsp;</p><p dir=\"ltr\">&nbsp;</p><p dir=\"ltr\"><a class=\"button\" href=\"https://theodi.github.io/abm.learndata.info/#/id/5c87e3ea67a1d80550784015\">Next: further reading</a></p>",
+    "instruction": "",
+    "_id": "5c9b40297d54690549568722",
+    "_parentId": "5c9b3ffa7d54690549568721",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "What does this mean in our model?",
+    "displayTitle": "What does this mean in our model?",
+    "body": "<p dir=\"ltr\">Companies and consumers are interacting in the model. We also have companies interacting with each other to share data.</p><p>Agents are defined by their characteristics and by the decisions they make over the course of the model. In the next section, we look in more detail at the characteristics of companies and consumers in our model.</p>",
+    "instruction": "",
+    "_id": "5c9a2956dcb747055b9b3f4c",
+    "_parentId": "5c9a294edcb747055b9b3f4b",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Image",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_id": "5c9b404d7d54690549568723",
+    "_parentId": "5c9b3ffa7d54690549568721",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/3c5bdd18bd553978e967b933bc617475b8ec32e5.png",
+      "small": "course/en/assets/3c5bdd18bd553978e967b933bc617475b8ec32e5.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Text part 1",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\">Data sharing is the ability of one organisation to share data with another, enabling the receiver to provide a service. This could make it easier for consumers to switch to competing services, or use services that complement what they&rsquo;re already using.</p><p dir=\"ltr\"><a href=\"http://theodi.org/article/how-can-we-predict-the-impact-of-data-policy/\">Common technical standards</a> between companies make it easier to share many types of data, in a safe and secure way, with clarity about who has consent to control it. &nbsp;&nbsp;&nbsp;</p>",
+    "instruction": "",
+    "_id": "5c9a565ddcb747055b9b4034",
+    "_parentId": "5c9a5636dcb747055b9b4033",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "accordion",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "What characteristics have we associated with companies?",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_id": "5c926c831fa46b052a6f1342",
+    "_parentId": "5c9254b51fa46b052a6f1314",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_items": [
+      {
+        "title": "Accessible data types",
+        "body": "<p>We assumed that companies make digital products by combining different types of data, alongside capital. The types of data a company has access to over the course of the simulation change according to data sharing.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Capital",
+        "body": "<p dir=\"ltr\">This affects the quality of existing products and the likelihood of whether they&rsquo;ll be able to make a new product in that category, or even invent a product in a category that is new to the company. This changes over the course of the simulation as the number of consumers using the company&rsquo;s products change.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Innovation skill",
+        "body": "<p>This is the skill of companies at combining capital and data to create new products.</p><p>It doesn&rsquo;t change over the course of the simulation.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Portability",
+        "body": "<p>Portability is about how responsive a company is to existing data sharing technology and regulation. This value is a factor in consumers&rsquo; decisions about whether to use a company or not.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Products",
+        "body": "<p dir=\"ltr\">Categories of products depend on the types of data a company has access to in any given tick. This is expressed in a &lsquo;matrix&rsquo; that maps combinations of types of data on to categories of products. If a company has access to these types of data, it has a chance of producing a product in categories that are based on that data.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": false
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "What happens next?",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\">The model is just the ODI&rsquo;s first attempt at modelling the effects of data sharing on innovation in the economy. If you would like to help us develop it, please <u><a href=\"https://theodi.org/about-the-odi/contact-us/\" target=\"_blank\">get in touch</a></u>: lawrence.kay@theodi.org.</p><p dir=\"ltr\">In the meantime you can read more about our work on data sharing and innovation:</p><p dir=\"ltr\"><span style=\"color:#0000FF\">-&nbsp;</span><u><a href=\"https://theodi.org/article/will-gdpr-and-data-portability-support-innovation/\" target=\"_blank\"><span style=\"color:#0000FF\">Will GDPR and data portability support innovation?</span></a></u></p><p dir=\"ltr\"><span style=\"color:#0000FF\">-&nbsp;</span><u><a href=\"https://theodi.org/article/furman-review-access-to-data-is-a-new-tool-against-monopoly/\" target=\"_blank\"><span style=\"color:#0000FF\">Furman Review: Access to data is a new tool against monopoly</span></a></u></p><p dir=\"ltr\"><span style=\"color:#0000FF\">-&nbsp;</span><u><a href=\"https://theodi.org/topic/data-infrastructure/\" target=\"_blank\"><span style=\"color:#0000FF\">What is data infrastructure?</span></a></u></p><p dir=\"ltr\">&nbsp;</p><p dir=\"ltr\">&nbsp;</p><p dir=\"ltr\"><a class=\"button\" href=\"https://theodi.github.io/abm.learndata.info/#/\">&lt; Back to homepage</a></p>",
+    "instruction": "",
+    "_id": "5c9b41877d54690549568744",
+    "_parentId": "5c98ae7c420916053afab3ae",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "accordion",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Consumer characteristics",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\">In the spirit of building the simplest model possible, we have assumed that the characteristics fundamental to our policy question (income, data provided, privacy concern, needs) vary randomly and not according to personal and demographic qualities.</p><p dir=\"ltr\">Consumers in the model have the following characteristics.</p>",
+    "instruction": "",
+    "_id": "5c9251fe1fa46b052a6f1307",
+    "_parentId": "5c879ddc67a1d80550783ff6",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_items": [
+      {
+        "title": "Income",
+        "body": "<p>Income constrains consumer choice and leads to value accruing in companies as consumers use their products.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Data",
+        "body": "<p>We assumed that consumers provide data when they use a service. Data doesn&rsquo;t affect consumer decisions or companies&rsquo; decisions about who they provide services to. But it does affect the types of products that companies can produce.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Concern about privacy",
+        "body": "<p>There is a &lsquo;privacy concern&rsquo; in the model to show how consumers behave if one of the companies experiences something like a large data breach.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Needs",
+        "body": "<p>We think of needs in terms of different product categories. These can be things like messaging services, photo sharing services, music streaming services &ndash; but we didn&rsquo;t name them as we were looking for a general model that accounts for categories that don&rsquo;t even exist yet. Each consumer in the model has a different need for each product category type &ndash; expressed as a category-needs matrix that the model uses to look up the needs of each consumer.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": false
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "What's an Agent Based Model?",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\">An agent-based model uses interactions between lots of people to understand how their behaviour might change over time.</p><p dir=\"ltr\">It can offer a way to understand how small decisions have big effects, but it is just one of many modelling techniques available.</p><p dir=\"ltr\">Considerable increases in computing power over recent decades have made it possible to develop more complex models, like agent-based ones. We might be able to use them to see the effects of complex connections between people, businesses and public institutions.</p>",
+    "instruction": "",
+    "_id": "5c8f6cba9e383705378cfe34",
+    "_parentId": "5c8f6c8f9e383705378cfe33",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Our innovation and data-sharing agent-based model is…",
+    "displayTitle": "Our innovation and data-sharing agent-based model is…",
+    "body": "<p dir=\"ltr\">- Computing software that creates simulated data</p><p dir=\"ltr\">- An experimental approach to thinking about policy questions on data sharing</p><p dir=\"ltr\">- An aid to making sense of one part of a complex system and visualising how some economic aspects might behave as a whole</p><p dir=\"ltr\">- A way of capturing the thoughts of the experts who we&rsquo;ve been working with</p><p dir=\"ltr\">- A way of learning how policy experts and experts in new modelling techniques can work together</p><p dir=\"ltr\">- A tool to aid discussion within the ODI and with other interested people about our collective assumptions about the data economy</p>",
+    "instruction": "",
+    "_id": "5c9a1494dcb747055b9b3f3d",
+    "_parentId": "5c9a147ddcb747055b9b3f3b",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Agent characteristics",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\">Characteristics affect how agents make decisions, similar to the way that your characteristics shape how you make decisions. These decisions lead to actions, the results of which are recorded over the course of running the simulation in the agent-based model.</p><p dir=\"ltr\">For each agent, the value of each characteristic is uniquely generated for them in the model. As the model runs, the user (the person running the model) can change the value of characteristics or set them as constant over time. To explore different questions, the user can change the strength of the impact of characteristics on agent decisions and their abilities.</p>",
+    "instruction": "",
+    "_id": "5c9a3199dcb747055b9b3f97",
+    "_parentId": "5c9a317ddcb747055b9b3f96",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "The system",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\">In this section we&rsquo;ll look at agents, the characteristics of agents, and their environment. We&rsquo;ll also introduce the concept of a &lsquo;tick cycle&rsquo;, a summary of the decisions and interactions of agents. Taken as a whole, this is our illustrative model of the economic effects of data sharing. We&rsquo;ll then reflect on assumptions in the model and what they mean for future development.</p>",
+    "instruction": "",
+    "_id": "5c87a0d367a1d80550784003",
+    "_parentId": "5c87a01967a1d80550784001",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Consumer",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_id": "5c879e5367a1d80550783ff8",
+    "_parentId": "5c879ddc67a1d80550783ff6",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/1a5f5f58def1a8d18cf3af5d2e6d78f405dca642.png",
+      "small": "course/en/assets/1a5f5f58def1a8d18cf3af5d2e6d78f405dca642.png",
+      "attribution": " <span class='assetLicence'>[All rights reserved]</span>"
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Intro",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\">The ability of companies to create new digital products and grow could be affected by how much data they have access to, and we wanted to know what we could learn about the effect of levels of data sharing on company performance in an economy.<br /><br />Because policymaking for data sharing is so new and the ODI hasn&rsquo;t built an agent-based model before, we started our work in the simplest possible way: by building an illustrative model that does not use any data and only uses expert understanding to decide how the agents might behave.<br /><br />Recent policies for data portability in open banking and the EU&rsquo;s General Data Protection Regulation (GDPR) have suggested that there could be a way to use technology to create a system for open, trustworthy data sharing that leads to more innovation and competitive markets.<br /><br /><strong>The model is just the beginning for the ODI in modelling the economic effects of data sharing, and its simplicity means that it cannot be used to make predictions.</strong></p>",
+    "instruction": "",
+    "_id": "5c9a1468dcb747055b9b3f3a",
+    "_parentId": "5c90c32d168efa054562da4a",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "The main steps in using the model are:",
+    "displayTitle": "The main steps in using the model are:",
+    "body": "<ol><li dir=\"ltr\"><p dir=\"ltr\"><strong>Formulate a question </strong>- the more precise the better. Agent-based models let you see the effects of changing two inputs at the same time but it&rsquo;s a good idea to start by changing one thing at a time. Varying that input then gives you different scenarios to compare. Once you have done this for two different inputs, you can see how they interact by changing them both at the same time.</p></li><li dir=\"ltr\"><p dir=\"ltr\"><strong>Let the model run </strong>- this involves letting the simulation run through the number of ticks specified, producing a dataset at the end.</p></li><li dir=\"ltr\"><p dir=\"ltr\"><strong>Compare the outputs </strong>- look at how the outputs that you came up with in step one are different in your different scenarios. Bear in mind that there could be a number of explanations for these differences. The model is to help you think through possibilities in a structured way and shouldn&rsquo;t be used for prediction.</p></li></ol>",
+    "instruction": "",
+    "_id": "5c9a4770dcb747055b9b3ffe",
+    "_parentId": "5c9a4741dcb747055b9b3ffd",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Company characteristics",
+    "displayTitle": "Company characteristics",
+    "body": "<p>Companies use data to develop products and decide whether to share data with other companies.</p><p>Consumers decide whether to use products based on the characteristics of the company.</p>",
+    "instruction": "",
+    "_id": "5c9254d21fa46b052a6f1315",
+    "_parentId": "5c9254b51fa46b052a6f1314",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "agent characteristic",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_id": "5c9a35fddcb747055b9b3fcc",
+    "_parentId": "5c9a317ddcb747055b9b3f96",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/8f50a9fd14b701418a38a9deb758e56e6ad7bfa9.png",
+      "small": "course/en/assets/8f50a9fd14b701418a38a9deb758e56e6ad7bfa9.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "But it is not...",
+    "displayTitle": "But it is not...",
+    "body": "<p dir=\"ltr\">- Based on real-world data collected from companies and consumers</p><p dir=\"ltr\">- A model that predicts the real-world effects of different policy choices</p><p dir=\"ltr\">- A theoretical model capturing all the possible features of the companies, customers and public institutions involved with data sharing</p><p dir=\"ltr\">&nbsp;</p><p dir=\"ltr\">&nbsp;</p><p dir=\"ltr\">&nbsp;</p><p dir=\"ltr\">&nbsp;</p><p dir=\"ltr\"><a class=\"button\" href=\"https://theodi.github.io/abm.learndata.info/#/id/5c87906067a1d80550783fdc\">Next: Model Parts</a></p>",
+    "instruction": "",
+    "_id": "5c9a14e7dcb747055b9b3f3e",
+    "_parentId": "5c9a147ddcb747055b9b3f3b",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "tick cycle visual",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_id": "5c9a3efedcb747055b9b3fdc",
+    "_parentId": "5c9a3eefdcb747055b9b3fdb",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/b9482d168788c5163c2ea018da8dc27e41b13e89.png",
+      "small": "course/en/assets/b9482d168788c5163c2ea018da8dc27e41b13e89.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_component": "narrative",
+    "_classes": "inverted color-three",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Experimenting with agent-based models and policy questions",
+    "displayTitle": "",
+    "body": "<p>Here are some examples of how agent-based models can be used to explore different policy questions.</p>",
+    "instruction": "",
+    "_id": "5c8784a767a1d80550783fc7",
+    "_parentId": "5c87832f67a1d80550783fc4",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "inverted color-three",
+      "_percentInviewVertical": 50
+    },
+    "mobileInstruction": "",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "inview",
+    "_items": [
+      {
+        "title": "Disease control",
+        "body": "<p dir=\"ltr\">Many governments use simple agent-based models to understand epidemics. These models contain simple rules about how diseases spread through a population with people who have natural immunity, people who are likely to recover and people who are likely to die. They allow modellers to set simple rules based on how much contact these different members of the population have with each other.</p><p dir=\"ltr\"><a href=\"http://ncase.me/simulating/\" target=\"_blank\">More information</a></p>",
+        "_graphic": {
+          "src": "course/en/assets/106de06c1c2d0875ee26028f561ad2c23ed8711e.png",
+          "alt": "",
+          "attribution": " https://ncase.me/simulating/<span class='assetLicence'>[CC-BY]</span>"
+        },
+        "strapline": "Many governments use simple agent-based models to understand epidemics. "
+      },
+      {
+        "title": "Bank of England housing market model",
+        "body": "<p>The Bank of England wanted to understand how limiting the ratio of loans-to-income in mortgages affects the housing market &ndash; a complex set of feedback loops between owner-occupiers, buy-to-let landlords, renters and social housing tenants. Researchers at the Institute of New Economic Thinking and the Bank of England built an agent-based model to understand the effects of limiting the ratio.</p><p><a href=\"https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2016/macroprudential-policy-in-an-agent-based-model-of-the-uk-housing-market.pdf\" target=\"_blank\">More information</a></p>",
+        "_graphic": {
+          "src": "course/en/assets/d9eb1e10bd91670b3ae146041d9edb5aebcab8a9.png",
+          "alt": "",
+          "attribution": "Bank Of England <span class='assetLicence'>[CC-BY]</span>"
+        },
+        "strapline": "The Bank of England wanted to understand how limiting the ratio of loans-to-income in mortgages affects the housing market"
+      },
+      {
+        "title": "Building local heat networks",
+        "body": "<p>A team of academics at the University of Leeds wanted to understand what was stopping local heat networks from being built across the UK, and what the central government could do to help. They used an agent-based model to investigate how the abilities and motives of local authorities, private developers and community groups &ndash;constrained by technical and social factors &ndash; affect the success of infrastructure projects like heat networks.</p><p><a href=\"https://www.sciencedirect.com/science/article/pii/S0301421516305560?via%3Dihub#\" target=\"_blank\">More information</a></p>",
+        "_graphic": {
+          "src": "course/en/assets/305bd303a4b1da18cd798ba352319614e0491353.jpg",
+          "alt": "",
+          "attribution": " Jonathan Buschab, Katy Roelichab, Catherine S.E.Baleac, Christof Knoeriad<span class='assetLicence'>[CC-BY]</span>"
+        },
+        "strapline": "The UK’s central government and local authorities have recognised that heat networks could be key in building low-carbon local infrastructure."
+      }
+    ]
+  },
+  {
+    "_component": "narrative",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Step through the tick cycle",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_id": "5c87987e67a1d80550783ff1",
+    "_parentId": "5c87985067a1d80550783ff0",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "mobileInstruction": "",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "inview",
+    "_items": [
+      {
+        "title": "Company decisions",
+        "body": "<p dir=\"ltr\">The model starts with a number of companies with different characteristics, and at the beginning of each tick cycle new companies that produce products in either existing or brand new categories can enter the simulation &ndash; much like startups in the real world. Companies can also go out of business based on what happened in the previous tick.</p><p dir=\"ltr\">Companies request types of data from others and companies holding this data decide whether to grant these requests. Following these data-sharing decisions, companies try to improve their existing products. They then try to create new products in categories that they are already operating in, or in new categories. Companies receive payments from their customers that they put towards capital, and receive data generated by customers.</p>",
+        "_graphic": {
+          "src": "course/en/assets/6fee00c78c6b893dd31bb3719b01c073e671e079.png",
+          "alt": "",
+          "attribution": " <span class='assetLicence'>[All rights reserved]</span>"
+        },
+        "strapline": "cycle"
+      },
+      {
+        "title": "Consumer decisions",
+        "body": "<p>The cycle completes with consumer decisions. Once it is clear what companies, categories and products are available, consumers purchase from a product category. Consumers then decide how to split their income between products from different companies within these categories and purchase these products.</p>",
+        "_graphic": {
+          "src": "course/en/assets/7db51a44520f29b584c7e531474d030ad462559b.png",
+          "alt": "",
+          "attribution": " <span class='assetLicence'>[All rights reserved]</span>"
+        },
+        "strapline": "cycle 2"
+      },
+      {
+        "title": "Factors in the cycle",
+        "body": "<p dir=\"ltr\">Each step in the tick cycle is influenced by a range of factors. These include agent characteristics, previous decisions by other agents and the environment of the model.</p><p dir=\"ltr\">Whether a company requests data from another depends on how much the data types overlap. Data requests are granted depending on the relative sizes of the companies, how much they compete in product categories, and the level of data sharing in the environment. The probability of creating new products also depends on how good the company is at innovating with the data they have access to.</p><p dir=\"ltr\">Consumers make purchasing decisions based on their needs and the perceptions they have of companies. They use the category-needs matrix to choose a product category &ndash; which is the same for every tick cycle. They then make a product choice based on privacy, the ease or data sharing and whether they are already using that company&rsquo;s product or other products from that company in other categories.</p>",
+        "_graphic": {
+          "src": "course/en/assets/5c3aa03c72b408dabe753c48b61351584e7daa91.png",
+          "alt": "",
+          "attribution": " <span class='assetLicence'>[All rights reserved]</span>"
+        },
+        "strapline": "External influences on firms and consumers"
+      }
+    ]
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Platform preference",
+    "displayTitle": "",
+    "body": "<p><strong>Same company preference</strong></p><p>Customers may prefer to use different products types from the same company for reasons in addition to the ease of data sharing. For example, if you are used to using a company&rsquo;s email service, you may want to use their calendar service as well because the user experience feels more seamless.</p>",
+    "instruction": "",
+    "_id": "5c926d311fa46b052a6f1347",
+    "_parentId": "5c926d041fa46b052a6f1344",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Full model image",
+    "displayTitle": "",
+    "body": "<p>The parts of the agent-based model can be mapped so that we have a simple way of seeing them all together. This gives us a snapshot of the model that we can refer back to when deciding how to use it to answer our policy question: <strong>What is the effect of openness on data sharing and innovation by companies?</strong></p>",
+    "instruction": "",
+    "_id": "5c9a42c5dcb747055b9b3ff6",
+    "_parentId": "5c9a42aadcb747055b9b3ff5",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/d32ee4fcac3f4f5976cf825e20c8a8187cfc298c.png",
+      "small": "course/en/assets/d32ee4fcac3f4f5976cf825e20c8a8187cfc298c.png",
+      "attribution": " <span class='assetLicence'>[All rights reserved]</span>"
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "What does it mean?",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_id": "5c9a15c6dcb747055b9b3f40",
+    "_parentId": "5c90c32d168efa054562da4a",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/d3bd23774e6ad9433bf2ee227e248a05d83d0e6e.png",
+      "small": "course/en/assets/d3bd23774e6ad9433bf2ee227e248a05d83d0e6e.png",
+      "attribution": " <span class='assetLicence'>[CC0]</span>"
+    }
+  },
+  {
+    "_component": "narrative",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "How can I interpret the results in relation to data sharing? ",
+    "displayTitle": "",
+    "body": "<p dir=\"ltr\"><strong>How can the results of the model be interpreted? &nbsp;</strong></p><p dir=\"ltr\">To understand the impact on our stylised market in digital products, the model produces a number of visual outputs.</p>",
+    "instruction": "",
+    "_id": "5c9b3d687d54690549568713",
+    "_parentId": "5c9b3d607d54690549568712",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "mobileInstruction": "",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "inview",
+    "_items": [
+      {
+        "title": "Biggest companies",
+        "body": "<p dir=\"ltr\">This graph shows the proportion of all consumers using the three biggest companies&rsquo; products in a product category like such as videos or music. (&lsquo;Biggest&rsquo; is determined by number of users.)</p>",
+        "_graphic": {
+          "src": "course/en/assets/6efb334a798149157d9065c0722dc77dc889b22a.png",
+          "alt": "",
+          "attribution": " <span class='assetLicence'>[CC0]</span>"
+        },
+        "strapline": "This is a graph"
+      },
+      {
+        "title": "Data sharing with small and new companies",
+        "body": "<p dir=\"ltr\">This graph shows how many data-sharing requests were granted to young companies in their first year. If small and young companies can quickly gather data, they might be more able to offer new products and grow.</p>",
+        "_graphic": {
+          "src": "course/en/assets/526b7832fcca61a8aa518a0cb4885c37367c9aa9.png",
+          "alt": "",
+          "attribution": " <span class='assetLicence'>[CC0]</span>"
+        },
+        "strapline": "Another graph!"
+      },
+      {
+        "title": "New products created by companies",
+        "body": "<p dir=\"ltr\">This graph shows companies offering new products in the product categories. Companies leave the market when they don&#39;t have enough customers or run out of money.</p>",
+        "_graphic": {
+          "src": "course/en/assets/6e3f61d6a64605d7edd8873f2e58ca18bf161fe6.png",
+          "alt": "",
+          "attribution": " <span class='assetLicence'>[CC0]</span>"
+        },
+        "strapline": "A graph"
+      },
+      {
+        "title": "Companies making products across product categories",
+        "body": "<p dir=\"ltr\">This graph shows the frequency of companies making products in given product categories.</p>",
+        "_graphic": {
+          "src": "course/en/assets/1d257d579e9110c12a9f39903fe0aa50719ec29a.png",
+          "alt": "",
+          "attribution": " <span class='assetLicence'>[CC0]</span>"
+        },
+        "strapline": "A graph!"
+      },
+      {
+        "title": "Consumers purchasing more than one product across companies",
+        "body": "<p dir=\"ltr\">This graph shows the proportion of consumers purchasing products from a given number of companies in the last 12 months, with no distinction between single or multiple use.</p>",
+        "_graphic": {
+          "src": "course/en/assets/96b4481d17cdb55e8b5f6fb13665e979fc5347e4.png",
+          "alt": "",
+          "attribution": " <span class='assetLicence'>[CC0]</span>"
+        },
+        "strapline": "almost last example"
+      },
+      {
+        "title": "Companies innovating products in new and existing categories",
+        "body": "<p>These graphs show the number of products being offered over time to consumers, in existing and new product categories.</p>",
+        "_graphic": {
+          "src": "course/en/assets/1a5dfea7cf1a83e5fa1d1a699fc6dd48db3ca060.png",
+          "alt": "",
+          "attribution": " <span class='assetLicence'>[CC0]</span>"
+        },
+        "strapline": "Last example"
+      },
+      {
+        "title": "Consumer satisfaction with the products offered by companies",
+        "body": "<p>This graph shows how well the products are satisfying consumer needs.</p>",
+        "_graphic": {
+          "src": "course/en/assets/1f6ec9e7eda804c348dc70c1653eb24c50df3168.png",
+          "alt": "",
+          "attribution": " <span class='assetLicence'>[CC0]</span>"
+        },
+        "strapline": "Actual last image"
+      }
+    ]
+  }
+]
